@@ -1,1 +1,1 @@
- files/rekviem.txt files/rekviemOut.txt 'Анны' 'Юли'
+files/rekviem.txt files/rekviemOut1.txt о ООО

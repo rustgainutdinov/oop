@@ -1,1 +1,1 @@
-ENOENT: no such file or directory, access '/work/c++/study/oop/lw1/replace/files/rekv.txt'
+ENOENT: no such file or directory, access '/work/oop/oop/lw1/replace/files/rekv.txt'

@@ -1,1 +1,1 @@
- files/rekviem.txt files/rekviemOut.txt 'А' 'АА'
+ files/rekviem.txt files/rekviemOut.txt горы ГОРЫ
