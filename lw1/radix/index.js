@@ -20,7 +20,7 @@ function getNumberBySymbol(symbol, cb) {
 function StringToInt(str, radix, cb) {
   const symbolsArr = str.split('');
   var i = 0;
-  var result = symbolsArr.reduceRight((sum, symbol) => {
+  const result = symbolsArr.reduceRight((sum, symbol) => {
     const num = getNumberBySymbol(symbol, err => {
       if (err) cb(err)
     });
