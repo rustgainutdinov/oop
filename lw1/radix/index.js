@@ -24,10 +24,11 @@ function StringToInt(str, radix, cb) {
     const num = getNumberBySymbol(symbol, err => {
       if (err) cb(err)
     });
-    if (!Number.isSafeInteger((num * Math.pow(radix, i++)) + sum)) {
+    if (!Number.isSafeInteger((num * Math.pow(radix, i)) + sum)) {
       cb(new Error('This number is not safe'));
     }
-    return (num * Math.pow(radix, i++)) + sum;
+    const result = (num * Math.pow(radix, i++)) + sum;
+    return result
   }, 0);
   return result
 }
@@ -47,19 +48,20 @@ function IntToString(num, radix, cb) {
 }
 
 if (process.argv.length !== 5) {
-  const errMsg = 'Invalid argument count \nUsage: ./radix <source notation> <destination notation> <value>';
+  const errMsg = 'Invalid argument count\nUsage: ./radix <source notation> <destination notation> <value>';
   errHandler(new Error(errMsg));
 }
 
+const isNegativeNum = process.argv[4].indexOf('_') === -1 ? false : true;
 const sourceRadix = Number(process.argv[2]);
 const destinationRadix = Number(process.argv[3]);
-const value = process.argv[4];
+const value = isNegativeNum ? process.argv[4].substring(1) : process.argv[4];
 
 const intermediateValue = StringToInt(value, sourceRadix, err => {
   if (err) errHandler(err)
 });
 
-const resultValue = IntToString(intermediateValue, destinationRadix, err => {
+const resultValue = (isNegativeNum ? '-' : '') + IntToString(intermediateValue, destinationRadix, err => {
   if (err) errHandler(err)
 });
 
