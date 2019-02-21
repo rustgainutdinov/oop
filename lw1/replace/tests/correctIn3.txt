@@ -1,0 +1,1 @@
+files/standartIn1.txt files/standartOut1.txt ы ыыыыыы

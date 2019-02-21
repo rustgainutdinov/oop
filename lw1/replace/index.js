@@ -11,8 +11,10 @@ function copyFileWithReplace(inFilePath, outFilePath, searchStr, replaceableStr,
     input: fs.createReadStream(inFilePath)
   });
 
+  const searchRegex = new RegExp(searchStr,'g');
+
   lineReader.on('line', (line) => {
-    const replaceableLine = line.replace(searchStr, replaceableStr) + '\n';
+    const replaceableLine = line.replace(searchRegex, replaceableStr) + '\n';
     try {
       fs.appendFileSync(outFilePath, replaceableLine);
     } catch (e) {

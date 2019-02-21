@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f889b57c-6ff0-4bb3-bfc0-46a1f163b7a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radix/Script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/radix/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/Script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/replace/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/files/rekviemOu.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/files/rekviemOut.txt" beforeDir="false" afterPath="$PROJECT_DIR$/replace/files/rekviemOut.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/tests/correctIn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/replace/tests/correctIn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/tests/correctIn1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/replace/tests/correctIn1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/tests/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/replace/tests/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/files/standartIn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/files/standartIn1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/files/standartOut.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/files/standartResult.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/files/standartResult1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/tests/correctIn2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/tests/correctIn3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace/files/rekviemOut1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/replace/files/rekviemOut1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/replace/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace/replace" beforeDir="false" afterPath="$PROJECT_DIR$/replace/replace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/replace/test.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,37 +35,54 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="1" />
-          <entry key="sh" value="1" />
-          <entry key="txt" value="22" />
+          <entry key="sh" value="2" />
+          <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="PLAIN_TEXT" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="37" />
+          <entry key="js" value="74" />
+          <entry key="sh" value="22" />
+          <entry key="txt" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="JavaScript" value="74" />
+          <entry key="PLAIN_TEXT" value="102" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/replace/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/replace/files/standartResult1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/replace/files/standartResult.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -75,6 +96,15 @@
         <option value="$PROJECT_DIR$/replace/files/rekviemOut.txt" />
         <option value="$PROJECT_DIR$/replace/tests/correctIn1.txt" />
         <option value="$PROJECT_DIR$/replace/tests/correctIn.txt" />
+        <option value="$PROJECT_DIR$/replace/files/standartOut.txt" />
+        <option value="$PROJECT_DIR$/replace/files/standartIn.txt" />
+        <option value="$PROJECT_DIR$/replace/index.js" />
+        <option value="$PROJECT_DIR$/replace/tests/correctIn2.txt" />
+        <option value="$PROJECT_DIR$/replace/files/standartIn1.txt" />
+        <option value="$PROJECT_DIR$/replace/tests/correctIn3.txt" />
+        <option value="$PROJECT_DIR$/replace/files/standartResult1.txt" />
+        <option value="$PROJECT_DIR$/replace/test.sh" />
+        <option value="$PROJECT_DIR$/replace/files/standartResult.txt" />
       </list>
     </option>
   </component>
@@ -147,6 +177,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/replace/tests" />
+      <recent name="$PROJECT_DIR$/replace/files" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -169,15 +205,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550775130552</updated>
-      <workItem from="1550775131675" duration="679000" />
+      <workItem from="1550775131675" duration="1891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="679000" />
+    <option name="totallyTimeSpent" value="1891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -231,14 +268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/replace/files/rekviemOut.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replace/files/rekviemOut1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3980" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/replace/tests/correctIn.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -246,19 +275,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/replace/files/rekviemOut.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/files/rekviemOut1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/files/standartIn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/files/standartOut.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/tests/correctIn2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/files/standartOut1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/replace/test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="55" />
+        <state relative-caret-position="508">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/tests/correctIn3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/files/standartIn1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/replace/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/files/standartResult1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace/files/standartResult.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

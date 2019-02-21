@@ -31,3 +31,19 @@ then
 else
     echo "Error test correct in"; exit 1
 fi
+
+./replace $(cat tests/correctIn2.txt) > tests/test5.txt
+if cmp files/standartOut.txt files/standartResult.txt ;
+then
+    echo "Success test"
+else
+    echo "Error test correct in"; exit 1
+fi
+
+./replace $(cat tests/correctIn3.txt) > tests/test6.txt
+if cmp files/standartOut1.txt files/standartResult1.txt ;
+then
+    echo "Success test"
+else
+    echo "Error test correct in"; exit 1
+fi
