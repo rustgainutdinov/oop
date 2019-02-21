@@ -27,8 +27,7 @@ function StringToInt(str, radix, cb) {
     if (!Number.isSafeInteger((num * Math.pow(radix, i)) + sum)) {
       cb(new Error('This number is not safe'));
     }
-    const result = (num * Math.pow(radix, i++)) + sum;
-    return result
+    return (num * Math.pow(radix, i++)) + sum;
   }, 0);
   return result
 }
