@@ -1,0 +1,1 @@
+ files/rekv.txt files/rekviemOut.txt 'А' 'АА'
