@@ -51,7 +51,7 @@ function printMatrix(inverseMatrix) {
 	for (var i = 0; i < 3; i++) {
 		var str = '';
 		for (var j = 0; j < 3; j++) {
-			str += inverseMatrix[i][j] + (j !== 2 ? '\t' : '');ч
+			str += inverseMatrix[i][j] + (j !== 2 ? '\t' : '');
 		}
 		console.log(str)
 	}
@@ -70,6 +70,7 @@ fs.readFile(pathToFile, (err, data) => {
 		const defaultMatrixList = data.toString().split(/[\t\n]/g);
 		const matrix = returnMatrixFromList(defaultMatrixList);
 		const inverseMatrix = findInverseMatrix(matrix);
+
 		printMatrix(inverseMatrix);
 	} catch (e) {
 		errHandler(e)
