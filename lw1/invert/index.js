@@ -30,8 +30,7 @@ function findInverseMatrix(matrix) {
 	const det = getDetMatrix(matrix);
 	var inverseMatrix = [];
 	if (det === 0) {
-		errHandler(new Error('Inverse matrix could not be found'));
-		process.exit();
+		throw new Error('Inverse matrix could not be found');
 	}
 	for (var i = 0; i < 3; i++) {
 		inverseMatrix.push([]);
@@ -65,11 +64,15 @@ if (process.argv.length !== 3) {
 }
 
 const pathToFile = process.argv[2];
-
 fs.readFile(pathToFile, (err, data) => {
 	if (err) return errHandler(err);
-	const defaultMatrixList = data.toString().split(/[\t\n]/g);
-	const matrix = returnMatrixFromList(defaultMatrixList);
-	const inverseMatrix = findInverseMatrix(matrix);
-	printMatrix(inverseMatrix);
+	try {
+		const defaultMatrixList = data.toString().split(/[\t\n]/g);
+		const matrix = returnMatrixFromList(defaultMatrixList);
+		const inverseMatrix = findInverseMatrix(matrix);
+		printMatrix(inverseMatrix);
+	} catch (e) {
+		errHandler(e)
+	}
 });
+
