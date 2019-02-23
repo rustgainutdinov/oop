@@ -1,2 +1,3 @@
-Invalid argument count 
-Usage: ./replace <matrix file1>
+0.208	-0.292	-0.125
+-0.292	0.208	0.375
+0.104	0.354	-0.063

@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f889b57c-6ff0-4bb3-bfc0-46a1f163b7a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invert/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invert/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invert/tests/matrix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invert/tests/matrix1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invert/tests/matrix2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invert/tests/matrix3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invert/tests/matrix4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invert/tests/result1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invert/tests/result4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invert/tests/result5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invert/tests/result6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invert/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/invert/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invert/tests/result2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/invert/tests/result2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invert/tests/result3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/invert/tests/result3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/radix/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/radix/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/radix" beforeDir="false" afterPath="$PROJECT_DIR$/radix/radix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/radix/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/tests/testIn1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/tests/testIn2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/tests/testIn3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/tests/testIn4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/tests/testIn5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/tests/testIn6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/tests/testIn7.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,31 +40,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="5" />
-          <entry key="json" value="2" />
+          <entry key="js" value="8" />
+          <entry key="json" value="3" />
+          <entry key="radix" value="1" />
           <entry key="replace" value="1" />
-          <entry key="sh" value="6" />
-          <entry key="txt" value="50" />
+          <entry key="sh" value="9" />
+          <entry key="txt" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PLAIN_TEXT" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1441" />
-          <entry key="sh" value="88" />
+          <entry key="js" value="1749" />
+          <entry key="sh" value="110" />
           <entry key="txt" value="159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1441" />
-          <entry key="PLAIN_TEXT" value="247" />
+          <entry key="JavaScript" value="1749" />
+          <entry key="PLAIN_TEXT" value="269" />
         </counts>
       </usages-collector>
     </session>
@@ -66,24 +73,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invert/index.js">
+        <entry file="file://$PROJECT_DIR$/invert/test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="598">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invert/test.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/invert/tests/result1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -93,25 +91,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invert/tests/out1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invert/tests/matrix.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invert/tests/matrix1.txt">
+        <entry file="file://$PROJECT_DIR$/invert/tests/result2.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -120,16 +100,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invert/tests/matrix4.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invert/tests/matrix2.txt">
+        <entry file="file://$PROJECT_DIR$/invert/tests/result3.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -138,10 +109,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invert/tests/matrix3.txt">
+        <entry file="file://$PROJECT_DIR$/invert/tests/result4.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/invert/tests/result5.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/invert/tests/result6.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -172,7 +161,6 @@
         <option value="$PROJECT_DIR$/replace/files/standartResult1.txt" />
         <option value="$PROJECT_DIR$/replace/files/standartResult.txt" />
         <option value="$PROJECT_DIR$/replace/index.js" />
-        <option value="$PROJECT_DIR$/radix/index.js" />
         <option value="$PROJECT_DIR$/replace/test.sh" />
         <option value="$PROJECT_DIR$/invert/package.json" />
         <option value="$PROJECT_DIR$/invert/tests/matrix.txt" />
@@ -181,9 +169,16 @@
         <option value="$PROJECT_DIR$/invert/tests/matrix3.txt" />
         <option value="$PROJECT_DIR$/invert/tests/matrix4.txt" />
         <option value="$PROJECT_DIR$/invert/index.js" />
-        <option value="$PROJECT_DIR$/invert/test.sh" />
         <option value="$PROJECT_DIR$/invert/tests/out1.txt" />
         <option value="$PROJECT_DIR$/invert/tests/result1.txt" />
+        <option value="$PROJECT_DIR$/radix/test.sh" />
+        <option value="$PROJECT_DIR$/radix/index.js" />
+        <option value="$PROJECT_DIR$/invert/tests/result2.txt" />
+        <option value="$PROJECT_DIR$/invert/tests/result3.txt" />
+        <option value="$PROJECT_DIR$/invert/tests/result4.txt" />
+        <option value="$PROJECT_DIR$/invert/tests/result5.txt" />
+        <option value="$PROJECT_DIR$/invert/test.sh" />
+        <option value="$PROJECT_DIR$/invert/tests/result6.txt" />
       </list>
     </option>
   </component>
@@ -242,6 +237,12 @@
               <item name="lw1" type="462c0819:PsiDirectoryNode" />
               <item name="radix" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw1" type="462c0819:PsiDirectoryNode" />
+              <item name="radix" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -288,12 +289,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550775130552</updated>
       <workItem from="1550775131675" duration="4533000" />
-      <workItem from="1550849364665" duration="7089000" />
+      <workItem from="1550849364665" duration="9912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11622000" />
+    <option name="totallyTimeSpent" value="14445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -325,15 +326,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/replace/tests/correctOut.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replace/tests/errorInFile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replace/tests/test1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/replace/files/rekviem.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -415,9 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/radix/test.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/replace/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -434,13 +423,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/replace/replace">
       <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/radix/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/replace/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -477,10 +459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/invert/tests/matrix4.txt">
+    <entry file="file://$PROJECT_DIR$/invert/tests/matrix.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -491,31 +473,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/invert/tests/matrix.txt">
+    <entry file="file://$PROJECT_DIR$/invert/tests/matrix4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/radix">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/tests/testIn1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+          <caret selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/tests/testIn2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/tests/testIn3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/tests/testIn4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/tests/testIn5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/tests/testIn6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/tests/testIn7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/tests/testOut2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radix/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invert/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="495">
           <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invert/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invert/tests/out1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-end-line="2" />
+          <caret line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/out2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/out3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/out5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/out4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/result3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/result4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/result5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/result2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -523,6 +633,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/out6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invert/tests/result6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
