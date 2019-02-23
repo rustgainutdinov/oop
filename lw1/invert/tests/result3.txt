@@ -1,0 +1,2 @@
+Invalid argument count 
+Usage: ./replace <matrix file1>

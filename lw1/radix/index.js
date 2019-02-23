@@ -46,7 +46,7 @@ function IntToString(num, radix, cb) {
   return str.split('').reverse().join('')
 }
 
-if (process.argv.length !== 5) {
+if (process.argv.length !== 5) {  
   const errMsg = 'Invalid argument count\nUsage: ./radix <source notation> <destination notation> <value>';
   errHandler(new Error(errMsg));
 }
