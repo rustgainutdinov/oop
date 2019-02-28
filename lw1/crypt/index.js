@@ -1,5 +1,4 @@
 const fs = require('fs');
-const readLine = require('readline');
 
 function errHandler(err) {
 	console.log(err.message);
@@ -20,19 +19,17 @@ function cryptChar(char, key) {
 	if (charCode >= 128) throw new Error(char + ' is NOT an ASCII character');
 	charCode = charCode ^ key;
 	const bin = decToBin(charCode);
-	const cryptChar = bin[5] + bin[6] + bin[0] + bin [1] + bin[2] + bin[7] + bin[3] + bin[4];
+	const cryptChar = bin[5] + bin[6] + bin[0] + bin[1] + bin[2] + bin[7] + bin[3] + bin[4];
 	return String.fromCharCode(parseInt(cryptChar, 2))
 }
 
 function decryptChar(char, key) {
 	const charCode = char.charCodeAt(0);
 	const bin = decToBin(charCode);
-	var deCryptChar = bin[2] + bin[3] + bin[4] + bin[6] + bin[7] + bin[0] + bin[1] + bin[5];
-	console.log(deCryptChar);
-	deCryptChar = deCryptChar ^ 0;
-	console.log(deCryptChar);
-
-	return String.fromCharCode(parseInt(deCryptChar, 2))
+	var decryptCharCode = bin[2] + bin[3] + bin[4] + bin[6] + bin[7] + bin[0] + bin[1] + bin[5];
+	decryptCharCode = parseInt(decryptCharCode, 2);
+	const deCryptChar = decryptCharCode ^ key;
+	return String.fromCharCode(deCryptChar)
 }
 
 function checkFilesForExistence(inFilePath, outFilePath, cb) {
@@ -84,6 +81,3 @@ try {
 } catch (e) {
 	errHandler(e);
 }
-
-// console.log(binArrToString(["01100110", "01101111", "01101111"])); // "foo"
-// console.log(stringToCharCodeArr("hello world"));
