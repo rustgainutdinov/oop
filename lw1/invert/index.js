@@ -2,20 +2,22 @@ const fs = require('fs');
 
 function errHandler(err) {
 	console.log(err.message);
+	process.exit(1);
 }
 
-function returnMatrixFromList(matrixList) {
+function readMatrixFromFile(pathToFile) {
+	const fileData = fs.readFileSync(pathToFile).toString().split(/[\t\n]/g);
 	var matrix = [];
 	for (var i = 0; i < 3; i++) {
 		matrix.push([]);
 		for (var j = 0; j < 3; j++) {
-			matrix[i][j] = Number(matrixList[i * 3 + j]);
+			matrix[i][j] = Number(fileData[i * 3 + j]);
 		}
 	}
 	return matrix
 }
 
-function getDetMatrix(matrix) {
+function getDeterminant(matrix) {
 	return (
 		matrix[0][0] * matrix[1][1] * matrix[2][2] +
 		matrix[1][0] * matrix[0][2] * matrix[2][1] +
@@ -27,7 +29,7 @@ function getDetMatrix(matrix) {
 }
 
 function findInverseMatrix(matrix) {
-	const det = getDetMatrix(matrix);
+	const det = getDeterminant(matrix);
 	var inverseMatrix = [];
 	if (det === 0) {
 		throw new Error('Inverse matrix could not be found');
@@ -35,13 +37,23 @@ function findInverseMatrix(matrix) {
 	for (var i = 0; i < 3; i++) {
 		inverseMatrix.push([]);
 		for (var j = 0; j < 3; j++) {
-			var tempArray = JSON.parse(JSON.stringify(matrix));
-			tempArray.splice(j, 1);
-			tempArray = tempArray.map(item => {
-				item.splice(i, 1);
-				return item
+			var algebraicAdditionMatrix = [];
+			matrix.forEach((item, k) => {
+				if (k !== j) {
+					algebraicAdditionMatrix.push(item.filter((_, p) => {
+						return p !== i
+					}))
+				}
 			});
-			inverseMatrix[i][j] = Number((Math.pow(-1, i + j) * (tempArray[0][0] * tempArray[1][1] - tempArray[0][1] * tempArray[1][0]) / det).toFixed(3));
+			inverseMatrix[i][j] = Number(
+				(
+					(((i + j) % 2) === 0 ? 1 : -1) *
+					(
+						algebraicAdditionMatrix[0][0] * algebraicAdditionMatrix[1][1] -
+						algebraicAdditionMatrix[0][1] * algebraicAdditionMatrix[1][0]
+					) / det
+				)
+				.toFixed(3));
 		}
 	}
 	return inverseMatrix
@@ -60,20 +72,16 @@ function printMatrix(inverseMatrix) {
 if (process.argv.length !== 3) {
 	const errMsg = 'Invalid argument count \nUsage: ./replace <matrix file1>';
 	errHandler(new Error(errMsg));
-	process.exit();
 }
 
 const pathToFile = process.argv[2];
-fs.readFile(pathToFile, (err, data) => {
-	if (err) return errHandler(err);
-	try {
-		const defaultMatrixList = data.toString().split(/[\t\n]/g);
-		const matrix = returnMatrixFromList(defaultMatrixList);
-		const inverseMatrix = findInverseMatrix(matrix);
 
-		printMatrix(inverseMatrix);
-	} catch (e) {
-		errHandler(e)
-	}
-});
+
+try {
+	const matrix = readMatrixFromFile(pathToFile);
+	const inverseMatrix = findInverseMatrix(matrix);
+	printMatrix(inverseMatrix);
+} catch (e) {
+	errHandler(e)
+}
 
