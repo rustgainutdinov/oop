@@ -1,0 +1,2 @@
+Invalid argument count
+Usage: ./crypt <action type> <input file> <output file> <key>

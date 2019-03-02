@@ -1,49 +1,37 @@
 npm run build
 
-./invert > tests/out1.txt
-if cmp tests/out1.txt tests/result1.txt ;
+./crypt crypt files/test.txt > files/argumentsTest.txt
+if cmp files/argumentsTest.txt files/argumentsTestResult.txt ;
 then
     echo "Success arguments num"
 else
     echo "Error arguments num"; exit 1
 fi
 
-./invert tests/matrix.txt > tests/out2.txt
-if cmp tests/out2.txt tests/result2.txt ;
+./crypt crypt files/test.txt files/testCrypt.txt 126
+./crypt decrypt files/testCrypt.txt files/testDeCrypt.txt 126
+if cmp files/test.txt files/testDeCrypt.txt ;
 then
-    echo "Success matrix test"
+    echo "Success decrypt test"
 else
-    echo "Error matrix test"; exit 1
+    echo "Error decrypt test"; exit 1
 fi
 
-./invert tests/matrix1.txt > tests/out3.txt
-if cmp tests/out3.txt tests/result3.txt ;
+./crypt decrypt ./files/google.bin ./files/googleDeCrypt.jpg 463 > files/keyTest.txt
+if cmp files/keyTest.txt files/keyTestResult.txt ;
 then
-    echo "Success matrix test"
+    echo "Success decrypt test"
 else
-    echo "Error matrix test"; exit 1
+    echo "Error decrypt test"; exit 1
 fi
 
-./invert tests/matrix3.txt > tests/out4.txt
-if cmp tests/out4.txt tests/result4.txt ;
-then
-    echo "Success matrix test"
-else
-    echo "Error matrix test"; exit 1
-fi
 
-./invert tests/matrix4.txt > tests/out5.txt
-if cmp tests/out5.txt tests/result5.txt ;
-then
-    echo "Success matrix test"
-else
-    echo "Error matrix te"; exit 1
-fi
 
-./invert tests/matrix2.txt > tests/out6.txt
-if cmp tests/out6.txt tests/result6.txt ;
+./crypt crypt files/google.png files/google.bin 63
+./crypt decrypt files/google.bin files/googleDeCrypt.jpg 63
+if cmp files/test.txt files/testDeCrypt.txt ;
 then
-    echo "Success matrix test"
+    echo "Success decrypt test"
 else
-    echo "Error matrix test"; exit 1
+    echo "Error decrypt test"; exit 1
 fi

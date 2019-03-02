@@ -6,30 +6,29 @@ function errHandler(err) {
 }
 
 function decToBin(charCode) {
-	var binChar = '';
-	for (var i = 0; i < 8; i++) {
+	let binChar = '';
+	for (let i = 0; i < 8; i++) {
 		binChar = (charCode % 2) + binChar;
 		charCode = Math.floor(charCode / 2);
 	}
 	return binChar;
 }
 
-function cryptChar(char, key) {
-	var charCode = char.charCodeAt(0);
-	if (charCode >= 128) throw new Error(char + ' is NOT an ASCII character');
+function cryptChar(charCode, key) {
+	charCode = parseInt(charCode, 16);
 	charCode = charCode ^ key;
 	const bin = decToBin(charCode);
 	const cryptChar = bin[5] + bin[6] + bin[0] + bin[1] + bin[2] + bin[7] + bin[3] + bin[4];
-	return String.fromCharCode(parseInt(cryptChar, 2))
+	return parseInt(cryptChar, 2).toString(16)
 }
 
-function decryptChar(char, key) {
-	const charCode = char.charCodeAt(0);
+function decryptChar(charCode, key) {
+	charCode = parseInt(charCode, 16);
 	const bin = decToBin(charCode);
-	var decryptCharCode = bin[2] + bin[3] + bin[4] + bin[6] + bin[7] + bin[0] + bin[1] + bin[5];
+	let decryptCharCode = bin[2] + bin[3] + bin[4] + bin[6] + bin[7] + bin[0] + bin[1] + bin[5];
 	decryptCharCode = parseInt(decryptCharCode, 2);
 	const deCryptChar = decryptCharCode ^ key;
-	return String.fromCharCode(deCryptChar)
+	return deCryptChar.toString(16)
 }
 
 function checkFilesForExistence(inFilePath, outFilePath, cb) {
@@ -49,15 +48,17 @@ function cryptFile(inFilePath, outFilePath, key, action) {
 			handler = cryptChar;
 		} else if (action === 'decrypt') {
 			handler = decryptChar;
-		} else errHandler(new Error('Action type is not defined'));
-		fs.createReadStream(inFilePath, {encoding: 'utf8'})
-		.on('readable', function () {
-			var chunk;
-			while (chunk = this.read(1)) {
-				fs.appendFileSync(outFilePath, handler(chunk, key));
+		} else throw new Error('Action type is not defined');
+
+		fs.open(inFilePath, 'r', function (status, fd) {
+			let buffer = Buffer.alloc(1);
+			let i = 0;
+			let resultChar;
+			while (fs.readSync(fd, buffer, 0, 1, i)) {
+				resultChar = handler(buffer.toString('hex'), key);
+				fs.appendFileSync(outFilePath, Buffer.from(resultChar.length === 1 ? '0' + resultChar : resultChar, 'hex'));
+				i++;
 			}
-		})
-		.on('end', function () {
 		});
 	});
 }
