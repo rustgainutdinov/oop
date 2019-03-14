@@ -9,7 +9,7 @@ const htmlToSymbolDictionary = {
 function htmlDecode(htmlStr) {
 	let symbol;
 	for (symbol in htmlToSymbolDictionary) {
-		htmlStr = htmlStr.replace(symbol, htmlToSymbolDictionary[symbol]);
+		htmlStr = htmlStr.replace(new RegExp(symbol, 'g'), htmlToSymbolDictionary[symbol]);
 	}
 	return htmlStr
 }

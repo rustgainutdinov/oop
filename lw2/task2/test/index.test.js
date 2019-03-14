@@ -9,4 +9,13 @@ describe('Executable file', () => {
 			throw new Error(`Expected ${expectedResult}, but got ${result}`);
 		}
 	});
+
+	it("should decode html to string", () => {
+		const htmlStr = 'Cat &lt;&lt;&lt;says&gt;&gt;&gt;';
+		const expectedResult = 'Cat <<<says>>>';
+		const result = executableFile.htmlDecode(htmlStr);
+		if (result !== expectedResult) {
+			throw new Error(`Expected ${expectedResult}, but got ${result}`);
+		}
+	});
 });

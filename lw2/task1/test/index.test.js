@@ -45,7 +45,7 @@ describe('Executable file', () => {
 		})
 	});
 
-	it("should multiply arr of float num elements to min number", () => {
+	it("should multiply arr of negative float num elements to min number", () => {
 		const testsArr = [
 			{
 				data: [-1.2, 1.9, 9.1],
