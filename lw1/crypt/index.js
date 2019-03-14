@@ -31,36 +31,28 @@ function decryptChar(charCode, key) {
 	return deCryptChar.toString(16)
 }
 
-function checkFilesForExistence(inFilePath, outFilePath, cb) {
-	fs.access(inFilePath, fs.constants.F_OK, err => {
-		if (err) throw err;
-		fs.writeFile(outFilePath, '', err => {
-			if (err) throw err;
-			cb();
-		});
-	});
-}
-
 function cryptFile(inFilePath, outFilePath, key, action) {
-	checkFilesForExistence(inFilePath, outFilePath, () => {
-		let handler;
-		if (action === 'crypt') {
-			handler = cryptChar;
-		} else if (action === 'decrypt') {
-			handler = decryptChar;
-		} else throw new Error('Action type is not defined');
+	let handler;
+	if (action === 'crypt') {
+		handler = cryptChar;
+	} else if (action === 'decrypt') {
+		handler = decryptChar;
+	} else throw new Error('Action type is not defined');
+	fs.accessSync(inFilePath, fs.constants.F_OK);
+	const inFile = fs.openSync(inFilePath, 'r');
+	const outFile = fs.openSync(outFilePath, 'a');
+	fs.writeFileSync(outFilePath, '');
 
-		fs.open(inFilePath, 'r', function (status, fd) {
-			let buffer = Buffer.alloc(1);
-			let i = 0;
-			let resultChar;
-			while (fs.readSync(fd, buffer, 0, 1, i)) {
-				resultChar = handler(buffer.toString('hex'), key);
-				fs.appendFileSync(outFilePath, Buffer.from(resultChar.length === 1 ? '0' + resultChar : resultChar, 'hex'));
-				i++;
-			}
+	let buffer = Buffer.alloc(1);
+	let i = 0;
+	let resultChar;
+	while (fs.readSync(inFile, buffer, 0, 1, i)) {
+		resultChar = handler(buffer.toString('hex'), key);
+		fs.appendFileSync(outFile, Buffer.from(resultChar.length === 1 ? '0' + resultChar : resultChar, 'hex'), err => {
+			if(err) throw new Error('Error file write');
 		});
-	});
+		i++;
+	}
 }
 
 if (process.argv.length !== 6) {

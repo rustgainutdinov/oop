@@ -1,0 +1,16 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.0.2",
+    "read": "^1.0.7"
+  }
+}

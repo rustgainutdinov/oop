@@ -25,6 +25,7 @@
 *.la
 *.a
 *.lib
+node_modules
 
 # Executables
 *.exe

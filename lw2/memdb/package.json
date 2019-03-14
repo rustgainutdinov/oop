@@ -1,0 +1,19 @@
+{
+  "name": "memdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  },
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
