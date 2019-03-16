@@ -1,14 +1,13 @@
 const htmlToSymbolDictionary = {
+	'&amp;': '&',
 	'&quot;': '“',
 	'&apos;': '‘',
 	'&lt;': '<',
 	'&gt;': '>',
-	'&amp;': '&'
 };
 
 function htmlDecode(htmlStr) {
-	let symbol;
-	for (symbol in htmlToSymbolDictionary) {
+	for (let symbol in htmlToSymbolDictionary) {
 		htmlStr = htmlStr.replace(new RegExp(symbol, 'g'), htmlToSymbolDictionary[symbol]);
 	}
 	return htmlStr
