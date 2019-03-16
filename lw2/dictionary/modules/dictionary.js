@@ -15,21 +15,18 @@ function translate(word) {
 	for (let i = 0; i < dictionary.length; i++) {
 		if (dictionary[i].enTranslation.toLowerCase() === word) return dictionary[i].ruTranslation;
 	}
-
-	for (let i = 0; i < dictionaryOfNewWords.length; i++) {
-		if (dictionaryOfNewWords[i].enTranslation.toLowerCase() === word) return dictionaryOfNewWords[i].ruTranslation;
-	}
 }
 
 function addNewWord(word, translatedWord) {
-	dictionaryOfNewWords.push({
+	const newWorldItem = {
 		enTranslation: word,
 		ruTranslation: translatedWord
-	})
+	};
+	dictionaryOfNewWords.push(newWorldItem);
+	dictionary.push(newWorldItem)
 }
 
 function saveChanges(pathToDictionary, cb) {
-	dictionary = dictionary.concat(dictionaryOfNewWords);
 	fs.writeFile(pathToDictionary, JSON.stringify(dictionary), 'utf8', cb);
 }
 
