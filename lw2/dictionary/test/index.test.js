@@ -16,16 +16,18 @@ describe('Dictionary file', () => {
 		});
 	});
 
-	it("should add words, save changes and translate new word", done => {
+	it("should add words, save changes and translate new word and world in arbitrary register", done => {
 		fs.writeFile('test/dictionary.json', JSON.stringify(defaultDictionary), 'utf8', err => {
 			if (err) return;
 			dictionary.openDictionary('test/dictionary.json', err => {
 				if (err) return;
 				dictionary.addNewWord('dog', 'Собака');
+				dictionary.addNewWord('faTHer', 'Отец');
 				dictionary.saveChanges('test/dictionaryResult.json', err => {
 					if (err) return;
 					dictionary.openDictionary('test/dictionaryResult.json', err => {
-						if (dictionary.translate('dog') === 'Собака') done()
+						if (dictionary.translate('dog') === 'Собака')
+							if (dictionary.translate('Father') === 'Отец') done()
 					});
 				});
 			});

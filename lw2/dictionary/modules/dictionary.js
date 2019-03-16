@@ -11,12 +11,13 @@ function openDictionary(pathToDictionary, cb) {
 }
 
 function translate(word) {
+	word = word.toLowerCase();
 	for (let i = 0; i < dictionary.length; i++) {
-		if (dictionary[i].enTranslation === word) return dictionary[i].ruTranslation;
+		if (dictionary[i].enTranslation.toLowerCase() === word) return dictionary[i].ruTranslation;
 	}
 
 	for (let i = 0; i < dictionaryOfNewWords.length; i++) {
-		if (dictionaryOfNewWords[i].enTranslation === word) return dictionaryOfNewWords[i].ruTranslation;
+		if (dictionaryOfNewWords[i].enTranslation.toLowerCase() === word) return dictionaryOfNewWords[i].ruTranslation;
 	}
 }
 

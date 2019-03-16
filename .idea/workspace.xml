@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a841702f-e7a6-4107-bda6-b5080d3ecdd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lw2/dictionary/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lw2/dictionary/modules/dictionary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lw2/dictionary/modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lw2/dictionary/test/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lw2/dictionary/vocabulary/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lw2/task2/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lw2/task2/modules/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lw2/task2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lw2/task2/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lw2/task2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lw2/task2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lw2/dictionary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lw2/dictionary/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lw2/dictionary/modules/dictionary.js" beforeDir="false" afterPath="$PROJECT_DIR$/lw2/dictionary/modules/dictionary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lw2/dictionary/test/dictionaryResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/lw2/dictionary/test/dictionaryResult.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lw2/dictionary/test/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/lw2/dictionary/test/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lw2/dictionary/vocabulary/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/lw2/dictionary/vocabulary/index.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,14 +65,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="17" />
-          <entry key="js" value="1927" />
+          <entry key="js" value="2019" />
           <entry key="json" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="108" />
-          <entry key="JavaScript" value="1927" />
+          <entry key="JavaScript" value="2019" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -98,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lw2/dictionary/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+            <state relative-caret-position="303">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -107,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lw2/dictionary/modules/dictionary.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="285">
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -125,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lw2/dictionary/test/index.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+            <state relative-caret-position="270">
+              <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -149,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/lw2/dictionary/vocabulary/index.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="194" lean-forward="true" selection-start-column="194" selection-end-column="194" />
+              <caret column="244" lean-forward="true" selection-start-column="244" selection-end-column="244" />
             </state>
           </provider>
         </entry>
@@ -202,8 +199,8 @@
         <option value="$PROJECT_DIR$/lw2/dictionary/vocabulary/index.json" />
         <option value="$PROJECT_DIR$/lw2/dictionary/tests/index.js" />
         <option value="$PROJECT_DIR$/lw2/dictionary/package.json" />
-        <option value="$PROJECT_DIR$/lw2/dictionary/modules/dictionary.js" />
         <option value="$PROJECT_DIR$/lw2/dictionary/index.js" />
+        <option value="$PROJECT_DIR$/lw2/dictionary/modules/dictionary.js" />
         <option value="$PROJECT_DIR$/lw2/dictionary/test/index.test.js" />
       </list>
     </option>
@@ -350,7 +347,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27442000" />
+    <option name="totallyTimeSpent" value="27871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -573,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/lw2/dictionary/vocabulary/index.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="194" lean-forward="true" selection-start-column="194" selection-end-column="194" />
+          <caret column="244" lean-forward="true" selection-start-column="244" selection-end-column="244" />
         </state>
       </provider>
     </entry>
@@ -592,15 +589,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lw2/dictionary/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        <state relative-caret-position="303">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw2/dictionary/modules/dictionary.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="65" />
+        <state relative-caret-position="285">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -613,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lw2/dictionary/test/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        <state relative-caret-position="270">
+          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
         </state>
       </provider>
     </entry>

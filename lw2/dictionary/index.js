@@ -9,6 +9,7 @@ function readFromCL(cb) {
 	if (!cb) return;
 	read({prompt: 'Введите слово на английском: '}, (err, word) => {
 		if (err) throw err;
+		if (word === '') return cb(readFromCL);
 		if (word === '...') {
 			if (!wereChangesFlag) return cb(null);
 			read({prompt: 'В словарь были внесены изменения. Введите Y или y для сохранения перед выходом.'}, (err, saveFlag) => {
