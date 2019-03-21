@@ -10,17 +10,22 @@ function openDictionary(pathToDictionary, cb) {
 function translate(word, dictionary) {
 	word = word.toLowerCase();
 	for (let i = 0; i < dictionary.length; i++) {
-		if (dictionary[i].enTranslation.toLowerCase() === word) return dictionary[i].ruTranslation;
+		if (dictionary[i].word.toLowerCase() === word) return dictionary[i].translation;
 	}
 	return null
 }
 
 function addNewWord(word, translatedWord, dictionary) {
+	let modifiedDictionary = dictionary.slice();
+
 	const newWorldItem = {
-		enTranslation: word,
-		ruTranslation: translatedWord
+		word: word,
+		translation: translatedWord
 	};
-	return dictionary.push(newWorldItem);
+
+	modifiedDictionary.push(newWorldItem);
+
+	return modifiedDictionary;
 }
 
 function saveChanges(pathToDictionary, dictionary) {
