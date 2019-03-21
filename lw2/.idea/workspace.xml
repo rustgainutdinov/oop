@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15870ec8-63c1-4c31-84ec-819a9945b707" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_prime_numbers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_prime_numbers/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_prime_numbers/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parseURL/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parseURL/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/modules/dictionary.js" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/modules/dictionary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/test/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/test/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/vocabulary/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/vocabulary/index.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-272055728">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="13" />
+          <entry key="json" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="4122" />
+          <entry key="json" value="75" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="75" />
+          <entry key="JavaScript" value="4122" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parseURL/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parseURL/test/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generate_prime_numbers/test/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parseURL/modules/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/generate_prime_numbers/modules/index.js" />
+        <option value="$PROJECT_DIR$/generate_prime_numbers/package.json" />
+        <option value="$PROJECT_DIR$/generate_prime_numbers/index.js" />
+        <option value="$PROJECT_DIR$/generate_prime_numbers/test/index.js" />
+        <option value="$PROJECT_DIR$/parseURL/modules/index.js" />
+        <option value="$PROJECT_DIR$/parseURL/index.js" />
+        <option value="$PROJECT_DIR$/parseURL/package.json" />
+        <option value="$PROJECT_DIR$/parseURL/test/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/dictionary/node_modules" />
+    <handled-path value="$PROJECT_DIR$/generate_prime_numbers/node_modules" />
+    <handled-path value="$PROJECT_DIR$/parseURL/node_modules" />
+    <handled-path value="$PROJECT_DIR$/task1/node_modules" />
+    <handled-path value="$PROJECT_DIR$/task2/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/dictionary/node_modules/ansi-colors/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/base/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/braces/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/browser-stdout/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/chalk/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/class-utils/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/define-properties/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/detect-file/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/es-abstract/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/es-to-primitive/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/execa/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/expand-brackets/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/expand-brackets/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/expand-tilde/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/extglob/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/fill-range/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/flat/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/flat/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/function-bind/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/global-modules/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/global-prefix/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/growl/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/has-symbols/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/has/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/he/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/homedir-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-callable/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-date-object/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-regex/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-symbol/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/log-symbols/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/map-age-cleaner/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/mem/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/mimic-fn/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/mocha/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/nice-try/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/node-environment-flags/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/npm-run-path/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/object-copy/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/object-copy/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/object-keys/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/object.assign/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/object.getownpropertydescriptors/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/p-defer/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/p-finally/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/p-is-promise/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/parse-passwd/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/path-key/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/pump/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/read/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/readline-sync/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/resolve-dir/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/set-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/shebang-command/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/shebang-regex/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/static-extend/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/strip-eof/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/to-object-path/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/union-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/wrap-ansi/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/wrap-ansi/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/wrap-ansi/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/yargs-unparser/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/dictionary/package.json" />
+      <path value="$PROJECT_DIR$/generate_prime_numbers/package.json" />
+      <path value="$PROJECT_DIR$/parseURL/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/ansi-colors/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/base/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/braces/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/browser-stdout/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/chalk/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/class-utils/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/define-properties/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/detect-file/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/es-abstract/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/es-to-primitive/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/execa/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/expand-brackets/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/expand-brackets/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/expand-tilde/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/extglob/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/fill-range/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/flat/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/flat/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/function-bind/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/global-modules/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/global-prefix/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/growl/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/has-symbols/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/has/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/he/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/homedir-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-callable/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-date-object/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-regex/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-symbol/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/log-symbols/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/map-age-cleaner/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/mem/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/mimic-fn/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/mocha/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/nice-try/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/node-environment-flags/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/npm-run-path/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/object-copy/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/object-copy/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/object-keys/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/object.assign/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/object.getownpropertydescriptors/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/p-defer/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/p-finally/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/p-is-promise/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/parse-passwd/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/path-key/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/pump/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/read/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/resolve-dir/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/set-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/shebang-command/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/shebang-regex/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/static-extend/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/strip-eof/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/to-object-path/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/union-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/wrap-ansi/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/wrap-ansi/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/wrap-ansi/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/yargs-unparser/package.json" />
+      <path value="$PROJECT_DIR$/task1/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/task1/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/ansi-colors/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/base/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/braces/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/browser-stdout/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/chalk/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/class-utils/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/define-properties/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/detect-file/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/es-abstract/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/es-to-primitive/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/execa/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/expand-brackets/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/expand-brackets/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/expand-tilde/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/extglob/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/fill-range/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/flat/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/flat/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/function-bind/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/global-modules/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/global-prefix/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/growl/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/has-symbols/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/has/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/he/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/homedir-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-callable/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-date-object/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-regex/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-symbol/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/log-symbols/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/map-age-cleaner/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/mem/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/mimic-fn/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/mocha/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/nice-try/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/node-environment-flags/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/npm-run-path/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/object-copy/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/object-copy/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/object-keys/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/object.assign/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/object.getownpropertydescriptors/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/p-defer/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/p-finally/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/p-is-promise/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/parse-passwd/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/path-key/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/pump/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/read/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/resolve-dir/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/set-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/shebang-command/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/shebang-regex/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/static-extend/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/strip-eof/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/to-object-path/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/union-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/wrap-ansi/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/wrap-ansi/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/wrap-ansi/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/yargs-unparser/package.json" />
+      <path value="$PROJECT_DIR$/task2/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/task2/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw2" type="462c0819:PsiDirectoryNode" />
+              <item name="generate_prime_numbers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw2" type="462c0819:PsiDirectoryNode" />
+              <item name="generate_prime_numbers" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw2" type="462c0819:PsiDirectoryNode" />
+              <item name="parseURL" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/dictionary/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15870ec8-63c1-4c31-84ec-819a9945b707" name="Default Changelist" comment="" />
+      <created>1553094776706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553094776706</updated>
+      <workItem from="1553094777984" duration="18858000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18858000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dictionary/test/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_prime_numbers/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1/test/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_prime_numbers/modules/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_prime_numbers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parseURL/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parseURL/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parseURL/modules/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_prime_numbers/test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parseURL/test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

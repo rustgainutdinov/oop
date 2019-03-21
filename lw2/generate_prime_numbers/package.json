@@ -1,17 +1,16 @@
 {
-  "name": "dictionary",
+  "name": "generate_prime_numbers",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.test.js"
+    "test": "mocha",
+    "dev": "node index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^6.0.2",
-    "read": "^1.0.7",
-    "readline-sync": "^1.4.9"
+    "mocha": "^6.0.2"
   }
 }

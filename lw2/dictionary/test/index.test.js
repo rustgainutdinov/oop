@@ -7,6 +7,12 @@ const defaultDictionary = [{
 
 
 describe('Dictionary file', () => {
+	it("should do not open a file that does not exist", done => {
+		dictionary.openDictionary('test/blabla.json', (err) => {
+			if (err.message === 'Path to dictionary is incorrect') done();
+		});
+	});
+
 	it("should open dictionary correctly", done => {
 		fs.writeFile('test/dictionary.json', JSON.stringify(defaultDictionary), 'utf8', err => {
 			if (err) return;
@@ -31,12 +37,6 @@ describe('Dictionary file', () => {
 					});
 				});
 			});
-		});
-	});
-
-	it("should do not open a file that does not exist", done => {
-		dictionary.openDictionary('test/blabla.json', (err) => {
-			if (err.message === 'Path to dictionary is incorrect') done();
 		});
 	});
 });

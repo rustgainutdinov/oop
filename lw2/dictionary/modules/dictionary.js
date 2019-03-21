@@ -1,33 +1,30 @@
 const fs = require('fs');
-let dictionary = [];
-let dictionaryOfNewWords = [];
 
 function openDictionary(pathToDictionary, cb) {
 	fs.readFile(pathToDictionary, 'utf8', (err, file) => {
 		if (err) return cb(new Error('Path to dictionary is incorrect'));
-		dictionary = JSON.parse(file);
-		cb(null);
+		cb(null, JSON.parse(file));
 	});
 }
 
-function translate(word) {
+function translate(word, dictionary) {
 	word = word.toLowerCase();
 	for (let i = 0; i < dictionary.length; i++) {
 		if (dictionary[i].enTranslation.toLowerCase() === word) return dictionary[i].ruTranslation;
 	}
+	return null
 }
 
-function addNewWord(word, translatedWord) {
+function addNewWord(word, translatedWord, dictionary) {
 	const newWorldItem = {
 		enTranslation: word,
 		ruTranslation: translatedWord
 	};
-	dictionaryOfNewWords.push(newWorldItem);
-	dictionary.push(newWorldItem)
+	return dictionary.push(newWorldItem);
 }
 
-function saveChanges(pathToDictionary, cb) {
-	fs.writeFile(pathToDictionary, JSON.stringify(dictionary), 'utf8', cb);
+function saveChanges(pathToDictionary, dictionary) {
+	fs.writeFileSync(pathToDictionary, JSON.stringify(dictionary), 'utf8');
 }
 
 module.exports = {
