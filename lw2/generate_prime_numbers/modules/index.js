@@ -4,7 +4,7 @@ function generatePrimeNumbersSet(maxVal) {
 	let x, y = x = 0;
 	let primeNumbersSet = new Set();
 	primeNumbersBoolArr[2] = true;
-	primeNumbersBoolArr[3] = true;	
+	primeNumbersBoolArr[3] = true;
 
 	for (let i = 1; i <= maxValSqr; i++) {
 		x += 2 * i - 1;

@@ -9,7 +9,7 @@ describe('Prime numbers generator', () => {
 	];
 
 	for (let test of testsData)
-		it(`should generate ${test.correctResult} prime numbers in the range of 1 to ${test.value}, faster than ${test.timeout}ms`, () => {
+		it(`should generate ${test.correctResult} prime numbers in the range of 0 to ${test.value}, faster than ${test.timeout}ms`, () => {
 			const result = generatePrimeNumbersSet(test.value).size;
 			if (result !== test.correctResult)
 				throw new Error(`Expected ${test.correctResult}, but got ${result}`)

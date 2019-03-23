@@ -31,20 +31,19 @@ describe('Parse Url', () => {
 		},
 		{
 			url: 'https://translat',
-			result: false
+			result: null
 		},
 		{
 			url: 'habr.com',
-			result: false
+			result: null
 		}
 	];
 
 	for (let test of testsData)
 		it(`should ${test.result ? 'correctly' : 'not'} parse ${test.url}`, () => {
-			let urlParams = {};
-			let result = parseUrl(test.url, urlParams);
+			let result = parseUrl(test.url);
 
-			if (test.result === false)
+			if (test.result == null)
 				if (result !== test.result)
 					throw new Error(`Expected ${test.result}, but got ${test}`);
 				else
@@ -52,8 +51,8 @@ describe('Parse Url', () => {
 
 
 			for (let param in test.result)
-				if (test.result[param] !== urlParams[param])
-					throw new Error(`Expected ${test.result[param]}, but got ${urlParams[param]}`);
+				if (test.result[param] !== result[param])
+					throw new Error(`Expected ${test.result[param]}, but got ${result[param]}`);
 
 		})
 });
