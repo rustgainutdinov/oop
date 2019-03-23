@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+  <style>
+    body {
+      background: #18212D;
+      font-family: 'Play', sans-serif;
+    }
+
+    .container {
+      display: flex;
+      margin: 100px auto 0;
+      width: 1000px;
+    }
+
+    .options-container {
+      padding: 20px;
+      box-sizing: border-box;
+      width: 700px;
+      height: 630px;
+      background: #FFF;
+    }
+
+    h1 {
+      color: #18212D;
+      margin-top: 0;
+    }
+
+    .ball-container {
+      padding-top: 70px;
+      width: 300px;
+      height: 560px;
+      background: #31FFA6;
+    }
+
+    .ball {
+      margin-left: 120px;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      background: #206EFF;
+    }
+  </style>
+</head>
+<body>
+<div class="container" id="app">
+  <div class="options-container">
+    <h2>Условия задачи</h2>
+    <p>С некоторой высоты h падает (вертикально) мяч. При частично упругом ударе о пол теряется X% механической энергии, которой обладает мяч перед ударом. Когда энергия мяча перед ударом в N--й раз составит Z% от первоначальной, отскоки прекращаются.</p>
+    <h2>Настройки</h2>
+    <el-form ref="form" :model="form" label-width="120px" label-position="top">
+      <el-form-item label="Высота падения">
+        <el-slider
+          v-model="height"
+          :max="10"
+          show-stops
+          show-input>
+      </el-form-item>
+      <el-form-item label="Ускорение свободного падения">
+        <el-radio-group v-model="g">
+          <el-radio label="1" border size="medium">На земле</el-radio>
+          <el-radio label="2" border size="medium">На луне</el-radio>
+          <el-radio label="3" border size="medium">На марсе</el-radio>
+        </el-radio-group>
+      </el-form-item>
+      <el-form-item label="Потери энергии">
+        <el-slider
+          v-model="energyLoss"
+          :max="10"
+          :min="1"
+          show-stops
+          show-input>
+      </el-form-item>
+      <el-form-item>
+        <el-button type="primary" size="medium" :disabled="btnDisabled" @click="submit">Применить</el-button>
+        <el-button type="default" size="medium" @click="reset">По умолчанию</el-button>
+      </el-form-item>
+      </el-from>
+  </div>
+  <div class="ball-container">
+    <div class="ball"></div>
+  </div>
+</div>
+
+<script src="js/vue.js"></script>
+<script src="js/element.js"></script>
+<script src="js/anime.min.js"></script>
+<script>
+	const maxDuration = 800;
+	const maxCompressionTime = 80;
+	const easing = 'Cubic';
+
+	new Vue({
+		el: '#app',
+		data: {
+			visible: false,
+			form: {},
+			g: '1',
+			energyLoss: 4,
+			height: 8,
+			energy: 0,
+			btnDisabled: false
+		},
+		methods: {
+			reset: function () {
+				this.g = '1';
+				this.energyLoss = 4;
+				this.height = 8;
+			},
+			submit: function () {
+				const toggleBtnState = this.toggleBtnState;
+				toggleBtnState();
+				const g = this.getGNum;
+				let energy = this.height * g;
+				const initialEnergy = energy;
+				const run = this.run;
+				const energyLoss = (1 - this.energyLoss / 10);
+				let height = this.height;
+				let duration = Math.pow(2 * height / g, 0.5) * maxDuration;
+				let timerDuration = duration;
+				let timer = 0;
+
+				while ((energy / initialEnergy) > 0.05) {
+					let newEnergy = energy * energyLoss;
+					setTimeout(function () {
+						run(height, height * energyLoss, duration, Math.pow(2 * height * energyLoss / g, 0.5) * maxDuration);
+						height = height * energyLoss;
+						duration = Math.pow(2 * height / g, 0.5) * maxDuration;
+					}, timer);
+					timer += timerDuration + Math.pow(2 * newEnergy, 0.5) / g * maxDuration + maxCompressionTime * 2;
+					timerDuration = Math.pow(2 * newEnergy, 0.5) / g * maxDuration;
+					energy = newEnergy;
+				}
+				setTimeout(function () {
+					run(height, 0, duration, Math.pow(2 * height * energyLoss / g, 0.5));
+					height = height * energyLoss;
+					toggleBtnState();
+				}, timer);
+			},
+			run: function (height, newHeight, duration, newDuration) {
+				const deformation = height / 10 * 30;
+				height = 500 - height * 50;
+				newHeight = 500 - newHeight * 50;
+
+				anime({
+					targets: '.ball-container .ball',
+					translateY: [height, 500],
+					easing: 'easeInCubic',
+					duration: duration
+				});
+
+				setTimeout(function () {
+					anime({
+						targets: '.ball-container .ball',
+						height: [60, 60 - deformation],
+						translateY: [500, 500 + deformation],
+						easing: 'easeOutCubic',
+						duration: maxCompressionTime
+					});
+				}, duration);
+				setTimeout(function () {
+					anime({
+						targets: '.ball-container .ball',
+						height: [60 - deformation, 60],
+						translateY: [500 + deformation, 500],
+						easing: 'easeInCubic',
+						duration: maxCompressionTime
+					});
+				}, duration + maxCompressionTime);
+				setTimeout(function () {
+					anime({
+						targets: '.ball-container .ball',
+						translateY: [500, newHeight],
+						easing: 'easeOut' + easing,
+						duration: newDuration,
+					})
+				}, duration + maxCompressionTime * 2);
+			},
+			toggleBtnState() {
+				this.btnDisabled = !this.btnDisabled;
+			}
+		},
+		computed: {
+			getGNum() {
+				switch (this.g) {
+					case '2':
+						return 2;
+					case '3':
+						return 3.7;
+					default:
+						return 9.8
+				}
+			}
+		}
+	})
+</script>
+</body>
+</html>

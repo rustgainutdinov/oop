@@ -1,0 +1,40 @@
+body {
+  background: #18212D;
+  font-family: 'Play', sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  width: 800px;
+}
+
+.options-container {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 580px;
+  background: #FFF;
+}
+
+h1 {
+  color: #18212D;
+  margin-top: 0;
+  /*text-align: center;*/
+}
+
+.ball-container {
+  padding-top: 20px;
+  width: 300px;
+  height: 560px;
+  background: #31FFA6;
+}
+
+.ball {
+  margin-left: 120px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #206EFF;//FF324A
+}

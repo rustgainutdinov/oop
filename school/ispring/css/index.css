@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cube-container {
+  margin: auto;
+  padding-top: 1px;
+  width: 800px;
+  height: 400px;
+  background: #1474d5;
+}
+
+.cube-container .cube {
+  margin-top: 370px;
+  margin-left: 70px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(8, 65, 156);
+}
+
+.ct-chart svg {
+  background: #5daf34;
+}
