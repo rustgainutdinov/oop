@@ -23,6 +23,11 @@ function SelectChanelTV(tv: TV, num: number) {
 	else console.log('failure to select channel')
 }
 
+function SelectPreviousChannel(tv: TV) {
+	if (tv.selectPreviousChannel()) console.log('successful select previous channel');
+	else console.log('failure to select previous channel')
+}
+
 function InfoTv(tv: TV) {
 	const info = tv.getInfo();
 	console.log(`powerState: ${info.powerState} channel ${info.channel}`);
@@ -39,6 +44,8 @@ function talkWithUser(tv: TV) {
 			const num: number = Number(action.substr('SelectChannel '.length));
 			if (!num) console.log('error');
 			SelectChanelTV(tv, num);
+		} else if (action.indexOf('SelectPreviousChannel') !== -1) {
+			SelectPreviousChannel(tv);
 		} else if (action.indexOf('Info') !== -1) {
 			InfoTv(tv);
 		} else if (action === 'exit') {

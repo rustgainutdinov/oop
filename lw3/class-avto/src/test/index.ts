@@ -96,4 +96,26 @@ describe('TV class', () => {
 		assert(tv.turnOn());
 		assert(checkForEquality(tv.getInfo(), defaultState));
 	});
+	
+	it('Should select to previous channel only if TV is turned on', () => {
+		const defaultState = {
+			powerState: false,
+			channel: 0
+		};
+		
+		const expectedState = {
+			powerState: true,
+			channel: 56
+		};
+		
+		const tv = new TV(defaultState.powerState, defaultState.channel);
+		assert(tv.turnOn());
+		assert(tv.selectChannel(56));
+		assert(tv.selectChannel(48));
+		assert(tv.turnOff());
+		assert(!tv.selectPreviousChannel());
+		assert(tv.turnOn());
+		assert(tv.selectPreviousChannel());
+		assert(checkForEquality(tv.getInfo(), expectedState));
+	})
 });

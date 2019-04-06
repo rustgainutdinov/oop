@@ -4,6 +4,7 @@ var TV = /** @class */ (function () {
     function TV(powerState, channel) {
         this.powerState = powerState;
         this.channel = 0;
+        this.previousChannel = -1;
         this.selectChannel(channel);
     }
     TV.prototype.turnOn = function () {
@@ -28,12 +29,23 @@ var TV = /** @class */ (function () {
         if (this.powerState === false)
             return false;
         if (channel > 0 && channel < 100) {
+            this.previousChannel = this.channel;
             this.channel = channel;
             return true;
         }
         else {
             return false;
         }
+    };
+    TV.prototype.selectPreviousChannel = function () {
+        if (this.powerState === false)
+            return false;
+        if (this.previousChannel === -1)
+            return false;
+        var previousChannel = this.previousChannel;
+        this.previousChannel = this.channel;
+        this.channel = previousChannel;
+        return true;
     };
     TV.prototype.getInfo = function () {
         return {
