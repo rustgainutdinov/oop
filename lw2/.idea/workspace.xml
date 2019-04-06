@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15870ec8-63c1-4c31-84ec-819a9945b707" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lw3/.idea/angular-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lw3/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lw3/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lw3/.idea/typescript-compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lw3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lw3/class-avto/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lw3/class-avto/src/test/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lw3/class-avto/src/tv/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw3/class-avto/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw3/class-avto/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw3/class-avto/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw3/class-avto/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw3/class-avto/src/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw3/class-avto/src/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw3/class-avto/src/test/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw3/class-avto/src/test/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw3/class-avto/src/tv/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw3/class-avto/src/tv/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw3/class-avto/src/tv/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw3/class-avto/src/tv/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />

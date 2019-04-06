@@ -1,16 +1,11 @@
-interface tvState {
-	powerState: boolean;
-	chanel: number;
-}
-
 class TV {
 	private powerState: boolean;
-	private chanel: number;
+	private channel: number;
 	
-	constructor(state: tvState) {
-		this.powerState = state.powerState;
-		this.chanel = 0;
-		this.selectChanel(state.chanel);
+	constructor(powerState: boolean, channel: number) {
+		this.powerState = powerState;
+		this.channel = 0;
+		this.selectChannel(channel);
 	}
 	
 	turnOn(): boolean {
@@ -24,7 +19,6 @@ class TV {
 	
 	turnOff(): boolean {
 		if (this.powerState === true) {
-			this.chanel = 0;
 			this.powerState = false;
 			return true
 		} else {
@@ -32,22 +26,22 @@ class TV {
 		}
 	}
 	
-	selectChanel(chanel: number): boolean {
+	selectChannel(channel: number): boolean {
 		if (this.powerState === false) return false;
-		if (chanel > 0 && chanel < 100) {
-			this.chanel = chanel;
+		if (channel > 0 && channel < 100) {
+			this.channel = channel;
 			return true
 		} else {
 			return false
 		}
 	}
 	
-	getInfo(): tvState {
+	getInfo() {
 		return {
 			powerState: this.powerState,
-			chanel: this.chanel
+			channel: this.powerState === false ? 0 : this.channel
 		}
 	}
 }
 
-export {TV, tvState}
+export {TV};

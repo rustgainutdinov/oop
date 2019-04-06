@@ -4,9 +4,9 @@ var readLineSync = require('readline-sync');
 var tv_1 = require("./tv");
 var state = {
     powerState: false,
-    chanel: 0
+    channel: 0
 };
-var tv = new tv_1.TV(state);
+var tv = new tv_1.TV(state.powerState, state.channel);
 function turnOnTV(tv) {
     if (tv.turnOn())
         console.log('successful turn on');
@@ -20,14 +20,14 @@ function turnOffTV(tv) {
         console.log('failure to turn off');
 }
 function SelectChanelTV(tv, num) {
-    if (tv.selectChanel(num))
-        console.log('successful select chanel');
+    if (tv.selectChannel(num))
+        console.log('successful select channel');
     else
-        console.log('failure to select chanel');
+        console.log('failure to select channel');
 }
 function InfoTv(tv) {
     var info = tv.getInfo();
-    console.log("powerState: " + info.powerState + " chanel " + info.chanel);
+    console.log("powerState: " + info.powerState + " channel " + info.channel);
 }
 function talkWithUser(tv) {
     while (true) {
@@ -38,8 +38,8 @@ function talkWithUser(tv) {
         else if (action.indexOf('TurnOff') !== -1) {
             turnOffTV(tv);
         }
-        else if (action.indexOf('SelectChanel') !== -1) {
-            var num = Number(action.substr('SelectChanel '.length));
+        else if (action.indexOf('SelectChannel') !== -1) {
+            var num = Number(action.substr('SelectChannel '.length));
             if (!num)
                 console.log('error');
             SelectChanelTV(tv, num);

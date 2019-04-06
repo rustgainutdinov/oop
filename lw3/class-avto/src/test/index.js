@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tv_1 = require("../tv");
+var assert = require('assert');
 describe('TV class', function () {
     function checkForEquality(x, y) {
         if (x === y)
@@ -37,29 +38,53 @@ describe('TV class', function () {
         }
         return true;
     }
-    it('Should create class with indicated values', function () {
-        var defaultState = {
-            powerState: true,
-            chanel: 32
-        };
-        var tv = new tv_1.TV(defaultState);
-        var state = tv.getInfo();
-        if (!checkForEquality(state, defaultState))
-            throw new Error();
+    it('Should create tv, turn it on and not turn it on again', function () {
+        var tv = new tv_1.TV(false, 0);
+        assert(tv.turnOn());
+        assert(!tv.turnOn());
     });
-    it('Should change chanel if power state is false and chanel nor equal 0 when created', function () {
-        var state = {
+    it('Should create TV which is turned on, turn it off and not turn it off again', function () {
+        var tv = new tv_1.TV(true, 0);
+        assert(tv.turnOff());
+        assert(!tv.turnOff());
+    });
+    it('Should select channel only if TV is turned on', function () {
+        var defaultState = {
             powerState: false,
-            chanel: 32
+            channel: 0
         };
         var expectedState = {
-            powerState: false,
-            chanel: 0
+            powerState: true,
+            channel: 56
         };
-        var tv = new tv_1.TV(state);
-        state = tv.getInfo();
-        console.log(state);
-        if (!checkForEquality(state, expectedState))
-            throw new Error();
+        var tv = new tv_1.TV(defaultState.powerState, defaultState.channel);
+        assert(!tv.selectChannel(56));
+        assert(tv.turnOn());
+        assert(tv.selectChannel(56));
+        assert(checkForEquality(tv.getInfo(), expectedState));
+    });
+    it('Should not select channel if channel is out of range', function () {
+        var defaultState = {
+            powerState: true,
+            channel: 32
+        };
+        var tv = new tv_1.TV(defaultState.powerState, defaultState.channel);
+        assert(!tv.selectChannel(156));
+        assert(checkForEquality(tv.getInfo(), defaultState));
+    });
+    it('Should returned return channel whose number is 0 if TV is turned off and save previously enabled channel when TV is turned on', function () {
+        var defaultState = {
+            powerState: true,
+            channel: 78
+        };
+        var expectedStateWhenTvIsTurnedOff = {
+            powerState: false,
+            channel: 0
+        };
+        var tv = new tv_1.TV(defaultState.powerState, defaultState.channel);
+        assert(tv.turnOff());
+        assert(checkForEquality(tv.getInfo(), expectedStateWhenTvIsTurnedOff));
+        assert(tv.turnOn());
+        assert(checkForEquality(tv.getInfo(), defaultState));
     });
 });

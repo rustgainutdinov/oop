@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var TV = /** @class */ (function () {
-    function TV(state) {
-        this.powerState = state.powerState;
-        this.chanel = 0;
-        this.selectChanel(state.chanel);
+    function TV(powerState, channel) {
+        this.powerState = powerState;
+        this.channel = 0;
+        this.selectChannel(channel);
     }
     TV.prototype.turnOn = function () {
         if (this.powerState === false) {
@@ -17,7 +17,6 @@ var TV = /** @class */ (function () {
     };
     TV.prototype.turnOff = function () {
         if (this.powerState === true) {
-            this.chanel = 0;
             this.powerState = false;
             return true;
         }
@@ -25,11 +24,11 @@ var TV = /** @class */ (function () {
             return false;
         }
     };
-    TV.prototype.selectChanel = function (chanel) {
+    TV.prototype.selectChannel = function (channel) {
         if (this.powerState === false)
             return false;
-        if (chanel > 0 && chanel < 100) {
-            this.chanel = chanel;
+        if (channel > 0 && channel < 100) {
+            this.channel = channel;
             return true;
         }
         else {
@@ -39,7 +38,7 @@ var TV = /** @class */ (function () {
     TV.prototype.getInfo = function () {
         return {
             powerState: this.powerState,
-            chanel: this.chanel
+            channel: this.powerState === false ? 0 : this.channel
         };
     };
     return TV;

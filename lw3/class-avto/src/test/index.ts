@@ -1,4 +1,6 @@
-import {TV, tvState} from '../tv'
+import {TV} from '../tv';
+
+var assert = require('assert');
 
 describe('TV class', () => {
 	function checkForEquality(x: any, y: any): boolean {
@@ -36,87 +38,62 @@ describe('TV class', () => {
 		return true;
 	}
 	
-	it('Should create class with indicated values', () => {
-		const defaultState: tvState = {
-			powerState: true,
-			chanel: 32
-		};
-		
-		const tv = new TV(defaultState);
-		const state: tvState = tv.getInfo();
-		if (!checkForEquality(state, defaultState)) throw new Error();
+	it('Should create tv, turn it on and not turn it on again', () => {
+		const tv = new TV(false, 0);
+		assert(tv.turnOn());
+		assert(!tv.turnOn());
 	});
 	
-	it('Should change chanel if power state is false and chanel nor equal 0 when created', () => {
-		let state: tvState = {
+	it('Should create TV which is turned on, turn it off and not turn it off again', () => {
+		const tv = new TV(true, 0);
+		assert(tv.turnOff());
+		assert(!tv.turnOff());
+	});
+	
+	it('Should select channel only if TV is turned on', () => {
+		const defaultState = {
 			powerState: false,
-			chanel: 32
+			channel: 0
 		};
 		
-		const expectedState: tvState = {
+		const expectedState = {
+			powerState: true,
+			channel: 56
+		};
+		
+		const tv = new TV(defaultState.powerState, defaultState.channel);
+		assert(!tv.selectChannel(56));
+		assert(tv.turnOn());
+		assert(tv.selectChannel(56));
+		assert(checkForEquality(tv.getInfo(), expectedState));
+	});
+	
+	it('Should not select channel if channel is out of range', () => {
+		const defaultState = {
+			powerState: true,
+			channel: 32
+		};
+		
+		const tv = new TV(defaultState.powerState, defaultState.channel);
+		assert(!tv.selectChannel(156));
+		assert(checkForEquality(tv.getInfo(), defaultState));
+	});
+	
+	it('Should returned return channel whose number is 0 if TV is turned off and save previously enabled channel when TV is turned on', () => {
+		const defaultState = {
+			powerState: true,
+			channel: 78
+		};
+		
+		const expectedStateWhenTvIsTurnedOff = {
 			powerState: false,
-			chanel: 0
+			channel: 0
 		};
 		
-		const tv = new TV(state);
-		state = tv.getInfo();
-		if (!checkForEquality(state, expectedState)) throw new Error();
+		const tv = new TV(defaultState.powerState, defaultState.channel);
+		assert(tv.turnOff());
+		assert(checkForEquality(tv.getInfo(), expectedStateWhenTvIsTurnedOff));
+		assert(tv.turnOn());
+		assert(checkForEquality(tv.getInfo(), defaultState));
 	});
-	
-	it('Should successfully turn on tv if switched off', () => {
-		const defaultState: tvState = {
-			powerState: false,
-			chanel: 0
-		};
-		
-		const tv = new TV(defaultState);
-		if (!tv.turnOn()) throw new Error();
-	});
-	
-	it('Should not successfully turn on tv if switched on', () => {
-		const defaultState: tvState = {
-			powerState: true,
-			chanel: 32
-		};
-		
-		const tv = new TV(defaultState);
-		if (tv.turnOn()) throw new Error();
-	});
-	
-	it('Should successfully turn off tv if switched on', () => {
-		const defaultState: tvState = {
-			powerState: true,
-			chanel: 32
-		};
-		
-		const tv = new TV(defaultState);
-		if (!tv.turnOff()) throw new Error();
-	});
-	
-	it('Should not successfully turn off tv if switched off', () => {
-		const defaultState: tvState = {
-			powerState: false,
-			chanel: 0
-		};
-		
-		const tv = new TV(defaultState);
-		if (tv.turnOff()) throw new Error();
-	});
-	
-	it('Should successfully select chanel and return info about tv', () => {
-		const defaultState: tvState = {
-			powerState: true,
-			chanel: 32
-		};
-		
-		const expectedState: tvState = {
-			powerState: true,
-			chanel: 56
-		};
-		
-		const tv = new TV(defaultState);
-		tv.selectChanel(56);
-		if (!checkForEquality(tv.getInfo(), expectedState)) throw new Error();
-	});
-	
 });
