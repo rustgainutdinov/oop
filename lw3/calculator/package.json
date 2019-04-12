@@ -1,0 +1,26 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run build:live",
+    "build": "tsc -p .",
+    "start": "node src/index",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "test": "mocha -r ts-node/register src/test/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.13.2",
+    "mocha": "^6.1.2",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3"
+  },
+  "dependencies": {
+    "@types/mocha": "^5.2.6",
+    "typescript": "^3.4.2"
+  }
+}
