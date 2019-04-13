@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="719fc1be-aa0a-4994-a5ea-db91f9eee7c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/calculator/src/calculator/error/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/calculator/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/calculator/variable/data/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/calculator/variable/fn/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/calculator/variable/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/test/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/test/methods/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/test/variable/data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/test/variable/fn.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lw2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="719fc1be-aa0a-4994-a5ea-db91f9eee7c4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -424,7 +410,7 @@
       <workItem from="1554360215018" duration="7975000" />
       <workItem from="1554495256054" duration="8896000" />
       <workItem from="1554749007475" duration="4176000" />
-      <workItem from="1554759168781" duration="21430000" />
+      <workItem from="1554759168781" duration="22031000" />
     </task>
     <servers />
   </component>
@@ -437,7 +423,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42477000" />
+    <option name="totallyTimeSpent" value="43078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
