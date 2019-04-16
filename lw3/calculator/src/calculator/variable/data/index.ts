@@ -33,6 +33,15 @@ class VariableData extends Variable {
 		throw new VariableError('set');
 	}
 	
+	assignValueToVariable(to: string, value: number) {
+		const toVariableIndex = this.getVariableItemIndexByName(to);
+		if (toVariableIndex !== -1) {
+			this.variables[toVariableIndex].value = value;
+		} else {
+			this.set(to, value);
+		}
+	}
+	
 	assignVariableValueToVariable(from: string, to: string) {
 		const fromVariableIndex = this.getVariableItemIndexByName(from);
 		if (fromVariableIndex !== -1) {
@@ -40,15 +49,6 @@ class VariableData extends Variable {
 			this.assignValueToVariable(to, value)
 		} else {
 			throw new VariableError('assignVariableValueToVariable');
-		}
-	}
-	
-	assignValueToVariable(to: string, value: number) {
-		const toVariableIndex = this.getVariableItemIndexByName(to);
-		if (toVariableIndex !== -1) {
-			this.variables[toVariableIndex].value = value;
-		} else {
-			this.set(to, value);
 		}
 	}
 }

@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="719fc1be-aa0a-4994-a5ea-db91f9eee7c4" name="Default Changelist" comment="" />
+    <list default="true" id="719fc1be-aa0a-4994-a5ea-db91f9eee7c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/color/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/error/color/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/error/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/point/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/line_segment/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/circle/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/rectangle/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/triangle/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/geometric/color/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/geometric/line_segment/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/geometric/point/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/circle/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/rectangle/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/methods/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/calculator/variable/data/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/calculator/variable/data/index.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,46 +37,51 @@
     <session id="-468569232">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="11" />
-          <entry key="json" value="9" />
-          <entry key="ts" value="27" />
+          <entry key="html" value="1" />
+          <entry key="js" value="14" />
+          <entry key="json" value="19" />
+          <entry key="ts" value="90" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="11" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="13" />
+          <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="27" />
-          <entry key="tsconfig" value="4" />
+          <entry key="TypeScript" value="90" />
+          <entry key="tsconfig" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="4" />
+          <entry key="TypeScriptServerServiceImpl" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="558" />
-          <entry key="json" value="44" />
-          <entry key="ts" value="8275" />
+          <entry key="js" value="614" />
+          <entry key="json" value="86" />
+          <entry key="ts" value="21063" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="44" />
-          <entry key="JavaScript" value="558" />
-          <entry key="TypeScript" value="8275" />
+          <entry key="JSON" value="82" />
+          <entry key="JavaScript" value="614" />
+          <entry key="TypeScript" value="21063" />
+          <entry key="tsconfig" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -62,58 +89,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class-avto/package.json">
+        <entry file="file://$PROJECT_DIR$/geometric/src/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/src/test/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable/data/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-807">
+              <caret column="55" selection-start-column="55" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculator/src/test/variable/fn.ts">
+        <entry file="file://$PROJECT_DIR$/geometric/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="70" column="42" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable/fn/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/src/calculator/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="120">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -124,8 +112,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -137,6 +126,9 @@
       <find>new</find>
       <find>VariableError</find>
       <find>variable</find>
+      <find>lines</find>
+      <find>LineSegment</find>
+      <find>shapesArray</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,16 +151,39 @@
         <option value="$PROJECT_DIR$/calculator/src/index.ts" />
         <option value="$PROJECT_DIR$/calculator/src/calculator/error/index.ts" />
         <option value="$PROJECT_DIR$/calculator/node_modules/index.js" />
-        <option value="$PROJECT_DIR$/calculator/index.js" />
         <option value="$PROJECT_DIR$/calculator/src/calculator/variable.ts" />
         <option value="$PROJECT_DIR$/calculator/src/calculator/variable/index.ts" />
         <option value="$PROJECT_DIR$/calculator/src/test/variable/data.ts" />
-        <option value="$PROJECT_DIR$/calculator/src/calculator/variable/data/index.ts" />
         <option value="$PROJECT_DIR$/calculator/src/test/methods/index.ts" />
         <option value="$PROJECT_DIR$/calculator/src/calculator/index.ts" />
         <option value="$PROJECT_DIR$/calculator/src/test/index.ts" />
+        <option value="$PROJECT_DIR$/calculator/src/calculator/variable/data/index.ts" />
         <option value="$PROJECT_DIR$/calculator/src/test/variable/fn.ts" />
         <option value="$PROJECT_DIR$/calculator/src/calculator/variable/fn/index.ts" />
+        <option value="$PROJECT_DIR$/calculator/index.js" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/line_segment/tsconfig.json" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/error/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/error/color/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/color/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/color/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/shape.html" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/point/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/point/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/index.js" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/line_segment/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/circle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/rectangle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/line_segment/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/triangle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/circle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/rectangle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/package.json" />
       </list>
     </option>
   </component>
@@ -181,14 +196,16 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/calculator/node_modules" />
     <handled-path value="$PROJECT_DIR$/class-avto/node_modules" />
+    <handled-path value="$PROJECT_DIR$/geometric/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/calculator/package.json" />
       <path value="$PROJECT_DIR$/class-avto/package.json" />
+      <path value="$PROJECT_DIR$/geometric/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -198,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,117 +226,108 @@
             <path>
               <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="point" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="variable" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="variable" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+              <item name="line_segment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+              <item name="solid_shape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw3" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+              <item name="solid_shape" type="462c0819:PsiDirectoryNode" />
+              <item name="circle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw3" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+              <item name="solid_shape" type="462c0819:PsiDirectoryNode" />
+              <item name="rectangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw3" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+              <item name="solid_shape" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw3" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="variable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="class-avto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="class-avto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="class-avto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="class-avto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="index.ts" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="class-avto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="class-avto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tv" type="462c0819:PsiDirectoryNode" />
-              <item name="index.ts" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="lw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw3" type="462c0819:PsiDirectoryNode" />
-              <item name="class-avto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="index.ts" type="620a8d5e:NestingTreeNode" />
+              <item name="methods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -335,13 +344,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geometric/src/geometric" />
+      <recent name="$PROJECT_DIR$/geometric/src/test" />
       <recent name="$PROJECT_DIR$/calculator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle" />
+      <recent name="$PROJECT_DIR$/geometric/src/geometric" />
       <recent name="$PROJECT_DIR$/calculator/src/calculator/variable" />
       <recent name="$PROJECT_DIR$/calculator" />
       <recent name="$PROJECT_DIR$/calculator/src" />
-      <recent name="$PROJECT_DIR$/class-avto/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -356,7 +368,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Should set and get variable with value 1">
+  <component name="RunManager" selected="Mocha.Should not create triangle if at least two points are the same">
+    <configuration name="Should get triangle area" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>--require ts-node/register</extra-mocha-options>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts</test-file>
+      <test-names>
+        <name value="Should get triangle area" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Should not create triangle if at least two points are the same" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>--require ts-node/register</extra-mocha-options>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts</test-file>
+      <test-names>
+        <name value="Should not create triangle if at least two points are the same" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Should set and get variable with value 1" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -389,9 +429,13 @@
     <list>
       <item itemvalue="Mocha.Variable Class.Should assign a variable value to a variable" />
       <item itemvalue="Mocha.Should set and get variable with value 1" />
+      <item itemvalue="Mocha.Should get triangle area" />
+      <item itemvalue="Mocha.Should not create triangle if at least two points are the same" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.Should not create triangle if at least two points are the same" />
+        <item itemvalue="Mocha.Should get triangle area" />
         <item itemvalue="Mocha.Should set and get variable with value 1" />
         <item itemvalue="Mocha.Variable Class.Should assign a variable value to a variable" />
       </list>
@@ -411,6 +455,9 @@
       <workItem from="1554495256054" duration="8896000" />
       <workItem from="1554749007475" duration="4176000" />
       <workItem from="1554759168781" duration="22031000" />
+      <workItem from="1555132343094" duration="5718000" />
+      <workItem from="1555234085855" duration="32364000" />
+      <workItem from="1555439022606" duration="2287000" />
     </task>
     <servers />
   </component>
@@ -421,19 +468,27 @@
     <history-entry file="Should_set_and_get_variable_with_value_1 - 2019.04.11 at 18h 32m 20s.xml">
       <configuration name="Should set and get variable with value 1" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Should_set_and_get_variable_with_value_1 - 2019.04.14 at 12h 02m 17s.xml">
+      <configuration name="Should set and get variable with value 1" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Should_get_triangle_area - 2019.04.15 at 13h 51m 44s.xml">
+      <configuration name="Should get triangle area" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Should_not_create_triangle_if_at_least_two_points_are_the_same - 2019.04.15 at 13h 51m 52s.xml">
+      <configuration name="Should not create triangle if at least two points are the same" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43078000" />
+    <option name="totallyTimeSpent" value="83447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15856236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.205074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -483,10 +538,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class-avto/Greeting.js" />
-    <entry file="file://$PROJECT_DIR$/class-avto/qq.js" />
-    <entry file="file://$PROJECT_DIR$/class-avto/qq.ts" />
-    <entry file="file://$PROJECT_DIR$/class-avto/Greeting.ts" />
     <entry file="file://$PROJECT_DIR$/class-avto/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192" />
@@ -513,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator/src/test/tsconfig.json" />
     <entry file="file://$PROJECT_DIR$/class-avto/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -538,53 +582,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/src/test/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable.js" />
+    <entry file="file://$PROJECT_DIR$/calculator/src/test/index.js" />
     <entry file="file://$PROJECT_DIR$/calculator/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/error/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator/src/index.ts">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class-avto/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../db/study/tasks/Lab_rabota__4.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -607,51 +611,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/src/test/variable/data.ts">
+    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/error/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/index.ts">
+    <entry file="file://$PROJECT_DIR$/calculator/src/test/variable/data.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="685">
+          <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/index.js" />
+    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable/data/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator/src/test/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable/fn/index.ts">
+    <entry file="file://$PROJECT_DIR$/class-avto/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable/data/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator/src/test/variable/fn.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="70" column="42" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="42" />
+        <state relative-caret-position="15">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/variable/fn/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/src/calculator/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/line_segment/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/calculator/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/methods/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/error/color/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/error/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/color/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/color/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/shape.html" />
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/point/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/point/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/index.js" />
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/circle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/rectangle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/line_segment/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/triangle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/circle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/line_segment/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/rectangle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
