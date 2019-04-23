@@ -1,38 +1,23 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var line_segment_1 = require("./geometric/shape/line_segment");
-var triangle_1 = require("./geometric/shape/solid_shape/triangle");
-var rectangle_1 = require("./geometric/shape/solid_shape/rectangle");
-var circle_1 = require("./geometric/shape/solid_shape/circle");
-var point_1 = require("./geometric/point");
-var readline = require('readline-sync');
+var create_shape_1 = require("./modules/create_shape");
+// @ts-ignore
+var readline_sync_1 = __importDefault(require("readline-sync"));
 function askShapes() {
     var shapesArray = [];
     while (true) {
-        var shapeData = readline.question('Shape: ').trim().split(' ');
+        var shapeDataStr = readline_sync_1.default.question('Shape: ');
         var shape = void 0;
         try {
-            if (shapeData[0] === 'line') {
-                shape = new line_segment_1.LineSegment(new point_1.Point(+shapeData[1], +shapeData[2]), new point_1.Point(+shapeData[3], +shapeData[4]), shapeData[5]);
-            }
-            else if (shapeData[0] === 'triangle') {
-                shape = new triangle_1.Triangle(new point_1.Point(+shapeData[1], +shapeData[2]), new point_1.Point(+shapeData[3], +shapeData[4]), new point_1.Point(+shapeData[6], +shapeData[6]), shapeData[7], shapeData[8]);
-            }
-            else if (shapeData[0] === 'rectangle') {
-                shape = new rectangle_1.Rectangle(new point_1.Point(+shapeData[1], +shapeData[2]), new point_1.Point(+shapeData[3], +shapeData[4]), shapeData[5], shapeData[6]);
-            }
-            else if (shapeData[0] === 'circle') {
-                shape = new circle_1.Circle(new point_1.Point(+shapeData[1], +shapeData[2]), shapeData[3], shapeData[4], shapeData[5]);
-            }
-            else if (shapeData[0] === '...') {
+            if (shapeDataStr.indexOf('...') !== -1) {
                 break;
             }
-            else {
-                var answer = readline.question('Do you watn to exit?(y/n): ');
-                if (answer.toLowerCase() === 'y') {
-                    break;
-                }
-                continue;
+            shape = create_shape_1.createShape(shapeDataStr);
+            if (!shape) {
+                throw new Error('Incorrect input');
             }
         }
         catch (e) {
@@ -44,6 +29,8 @@ function askShapes() {
     return shapesArray;
 }
 function searchShapeWithTheLargestArea(shapesArray) {
+    if (shapesArray.length < 1)
+        return null;
     var shape = shapesArray[0];
     shapesArray.forEach(function (item) {
         if (item.getArea() > shape.getArea()) {
@@ -53,6 +40,8 @@ function searchShapeWithTheLargestArea(shapesArray) {
     return shape;
 }
 function searchShapeWithTheSmallestPerimeter(shapesArray) {
+    if (shapesArray.length < 1)
+        return null;
     var shape = shapesArray[0];
     shapesArray.forEach(function (item) {
         if (item.getPerimeter() < shape.getPerimeter()) {
@@ -62,20 +51,18 @@ function searchShapeWithTheSmallestPerimeter(shapesArray) {
     return shape;
 }
 function showShape(shape) {
-    console.log('Area: ' + shape.getArea());
-    console.log('Perimeter: ' + shape.getPerimeter());
-    console.log('Out line color: ' + shape.getOutlineColor());
-    if ('getFillColor' in shape) {
-        console.log('Fill color: ' + shape.getFillColor());
+    if (shape) {
+        console.log(shape.toString());
     }
-    console.log('Individual data: ' + shape.toString());
+    else {
+        console.log(null);
+    }
 }
-var shapesArray = askShapes();
-if (shapesArray.length > 0) {
-    var shapeWithTheLargesArea = searchShapeWithTheLargestArea(shapesArray);
-    var shapeWithTheSmallestPerimeter = searchShapeWithTheSmallestPerimeter(shapesArray);
+function main() {
+    var shapesArray = askShapes();
     console.log('\nShape with the largest area: ');
-    showShape(shapeWithTheLargesArea);
+    showShape(searchShapeWithTheLargestArea(shapesArray));
     console.log('\nShape with the smallest perimeter: ');
-    showShape(shapeWithTheSmallestPerimeter);
+    showShape(searchShapeWithTheSmallestPerimeter(shapesArray));
 }
+main();

@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15870ec8-63c1-4c31-84ec-819a9945b707" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lw3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lw4/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/geometric/shape/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/geometric/shape/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/geometric/shape/solid_shape/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/geometric/shape/solid_shape/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/color/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/color/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/line_segment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/line_segment/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/point/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/point/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/solid_shape/circle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/solid_shape/circle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/solid_shape/rectangle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/solid_shape/rectangle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/solid_shape/triangle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/test/geometric/solid_shape/triangle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/lib/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/lib/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/geometric/color/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/geometric/color.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/geometric/point/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/geometric/point.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/line_segment/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/line_segment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/solid_shape/circle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/solid_shape/circle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/solid_shape/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/solid_shape/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/solid_shape/rectangle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/solid_shape/rectangle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/solid_shape/triangle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/geometric/shape/solid_shape/triangle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/color/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/color/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/line_segment/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/line_segment/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/point/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/point/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/solid_shape/circle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/solid_shape/circle/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/solid_shape/rectangle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/solid_shape/rectangle/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/solid_shape/triangle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/test/geometric/solid_shape/triangle/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw4/geometric/src/test/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw4/geometric/src/test/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,23 +47,23 @@
     <session id="-272055728">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="36" />
+          <entry key="js" value="41" />
           <entry key="json" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="36" />
+          <entry key="JavaScript" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -52,26 +81,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dictionary/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dictionary/modules/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,53 +164,30 @@
             <path>
               <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="vocabulary" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="generate_prime_numbers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="generate_prime_numbers" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="parse_url" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="parse_url" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw2" type="462c0819:PsiDirectoryNode" />
-              <item name="parse_url" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,15 +233,15 @@
       <workItem from="1554109104990" duration="228000" />
       <workItem from="1554388912596" duration="1340000" />
       <workItem from="1554495285878" duration="827000" />
+      <workItem from="1555961606474" duration="121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28883000" />
+    <option name="totallyTimeSpent" value="29004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -318,9 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task1/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/task1/test/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -342,13 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary/modules/dictionary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -401,17 +378,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary/modules/index.js">
+    <entry file="file://$PROJECT_DIR$/task1/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2/modules/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1/modules/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary/modules/dictionary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dictionary/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="573">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary/modules/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

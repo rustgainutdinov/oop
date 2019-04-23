@@ -1,14 +1,723 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ChangeListManager">
+    <list default="true" id="a1a7afde-2fac-449a-9b2a-31dd9877a868" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/canvas/canvas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/canvas/canvasDrawable.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/canvas/iCanvas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/point.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/shape.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/circle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/rectangle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/solidShape.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/modules/create_shape.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/src/test/canvas/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometric/svg_test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/geometric/shape/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/geometric/shape/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/geometric/shape/solid_shape/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/geometric/shape/solid_shape/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/test/geometric/color/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/test/geometric/color/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/test/geometric/line_segment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/test/geometric/line_segment/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/test/geometric/point/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/test/geometric/point/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/test/geometric/solid_shape/circle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/test/geometric/solid_shape/circle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/test/geometric/solid_shape/rectangle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/test/geometric/solid_shape/rectangle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/test/geometric/solid_shape/triangle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/test/geometric/solid_shape/triangle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/lib/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/lib/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/color/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/geometric/color.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/error/color/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/geometric/error/colorError.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/error/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/geometric/error/geomenricError.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/point/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/shape/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/shape/line_segment/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/lineSegment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/circle/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/rectangle/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/triangle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/triangle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/test/geometric/color/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/test/geometric/color/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/test/geometric/line_segment/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/test/geometric/line_segment/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/test/geometric/point/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/test/geometric/point/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/circle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/circle/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/rectangle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/rectangle/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometric/src/test/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/geometric/src/test/index.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-665082736">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="13" />
+          <entry key="json" value="2" />
+          <entry key="lib" value="1" />
+          <entry key="svg" value="15" />
+          <entry key="ts" value="118" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="13" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SVG" value="15" />
+          <entry key="TypeScript" value="118" />
+          <entry key="tsconfig" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="349" />
+          <entry key="ts" value="3280" />
+          <entry key="txt" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="349" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="TypeScript" value="3280" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometric/src/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometric/src/test/canvas/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/geometric/src/geometric/canvas/canvas.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#124#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometric/svg_test/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geometric/src/test/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CCircle</find>
+      <find>CRectangle</find>
+      <find>CPoint</find>
+      <find>Point</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Circle</replace>
+      <replace>Rectangle</replace>
+      <replace>Point</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/geometric/src/geometric/point/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/line_segment.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/triangle.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/rectangle.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solid_shape/circle.ts" />
+        <option value="$PROJECT_DIR$/geometric/shapes_data/index.txt" />
+        <option value="$PROJECT_DIR$/geometric/lib/index.js" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/canvas/icanvas.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/canvas/ICanvasDrawable.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/SolidShape/CShape.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/canvas/ICanvas.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/error/CColorError.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/CShape.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/SolidShape/CSolidShape.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/SolidShape/CCircle.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/CLineSegment.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/error/colorError.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/lineSegment.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/SolidShape/triangle.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/SolidShape/circle.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/SolidShape/rectangle.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/SolidShape/solidShape.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/modules/create_shape.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/color/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/line_segment/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/point/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/circle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/rectangle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/color.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/triangle.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/canvas/сanvas.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/canvas/canvasDrawable.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/test/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/canvas/iCanvas.ts" />
+        <option value="$PROJECT_DIR$/geometric/svg_test/index.js" />
+        <option value="$PROJECT_DIR$/geometric/src/test/canvas/index.ts" />
+        <option value="$PROJECT_DIR$/geometric/src/geometric/canvas/canvas.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/geometric/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/geometric/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="canvas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+              <item name="solidShape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="canvas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw4" type="462c0819:PsiDirectoryNode" />
+              <item name="geometric" type="462c0819:PsiDirectoryNode" />
+              <item name="svg_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/geometric/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/geometric/node_modules/typescript/lib" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geometric/src/geometric/error" />
+      <recent name="$PROJECT_DIR$/geometric/src/geometric/shape" />
+      <recent name="$PROJECT_DIR$/geometric/src/geometric/shape/SolidShape" />
+      <recent name="$PROJECT_DIR$/geometric/src/geometric/" />
+      <recent name="$PROJECT_DIR$/geometric/src/geometric/shape/Point" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geometric/src/geometric" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1a7afde-2fac-449a-9b2a-31dd9877a868" name="Default Changelist" comment="" />
+      <created>1555441685810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555441685810</updated>
+      <workItem from="1555441687729" duration="2470000" />
+      <workItem from="1555615738182" duration="42000" />
+      <workItem from="1555749993258" duration="7003000" />
+      <workItem from="1555961179266" duration="423000" />
+      <workItem from="1555961618331" duration="13786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23724000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24876674" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24876674" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/point/index.ts" />
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/color/index.ts" />
+    <entry file="file://$PROJECT_DIR$/geometric/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/lib/lib" />
+    <entry file="file://$PROJECT_DIR$/geometric/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/shapes_data/index.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/shape.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/circle.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/point.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/modules/create_shape.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/lineSegment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/color/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/line_segment/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/point/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/circle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/rectangle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/geometric/solid_shape/triangle/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/triangle.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/rectangle.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/shape/solidShape/solidShape.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/error/colorError.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/error/geomenricError.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/color.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/methods/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/lib/geometric/canvas/canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/lib/geometric/point/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/lib/modules/create_shape.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/lib/geometric/shape/lineSegment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/canvas/iCanvas.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/canvas/canvasDrawable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/svg_test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/svg_test/test.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/test.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/test/canvas/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geometric/src/geometric/canvas/canvas.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#124#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
