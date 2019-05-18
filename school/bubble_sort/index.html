@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    .title {
+      width: 800px;
+      margin: 50px auto;
+      text-align: center;
+      font-size: 52px;
+      line-height: 1.5em;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .wrapper {
+      position: relative;
+      width: 760px;
+      height: 100px;
+      margin: 70px auto;
+    }
+
+    .window {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      border: 5px solid #000;
+    }
+
+    .cube {
+      height: 40px;
+      position: absolute;
+      line-height: 40px;
+      color: #fff;
+      width: 40px;
+      text-align: center;
+      font-size: 22px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+</head>
+<body>
+<div class="title">
+  Bubble sort
+</div>
+<div id="el" class="wrapper"></div>
+
+<script src="src/anime.min.js"></script>
+<script>
+	let arr = [];
+	const max = 9;
+	let numbers = new Set();
+	for (let i = 0; i < max + 1; i++) {
+		let n = Math.round(Math.random() * max);
+		while (numbers.has(n)) {
+			n = Math.round(Math.random() * max);
+		}
+		const color = 360 / max * n;
+		numbers.add(n);
+		arr.push({n, color, block: document.createElement('div')});
+	}
+	const fragment = document.getElementById('el');
+	arr.forEach((item, i) => {
+		item.block.classList.add('cube');
+		item.block.innerText = item.n;
+		anime({
+			targets: item.block,
+			translateX: 80 * i,
+			backgroundColor: 'hsl(' + item.color + ', 40%, 60%)'
+		});
+		fragment.appendChild(item.block);
+	});
+
+	function swap(a, b, i) {
+		return () => {
+			anime({
+				targets: a.block,
+				translateY: {
+					value: 60,
+					duration: 500
+				},
+				translateX: {
+					value: i * 80,
+					duration: 500,
+					delay: 500
+				}
+			});
+
+			setTimeout(() => {
+				anime({
+					targets: a.block,
+					translateY: {
+						value: 0,
+						duration: 500
+					}
+				})
+			}, 1000);
+
+			anime({
+				targets: b.block,
+				translateY: {
+					value: -60,
+					duration: 500
+				},
+				translateX: {
+					value: (i + 1) * 80,
+					duration: 500,
+					delay: 500
+				}
+			});
+
+			setTimeout(() => {
+				anime({
+					targets: b.block,
+					translateY: {
+						value: 0,
+						duration: 500
+					}
+				})
+			}, 1000);
+		}
+	}
+
+	const queue = [];
+
+	for (let i = 0; i < max + 1; i++) {
+		for (let j = 0; j < max - i; j++) {
+			if (arr[j].n > arr[j + 1].n) {
+				const obj = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = obj;
+				queue.push(swap(arr[j], arr[j + 1], j));
+			}
+		}
+	}
+
+	queue.forEach((fn, i) => {
+		setTimeout(() => {
+			fn();
+		}, (i + 1) * 1500);
+	});
+
+</script>
+</body>
+</html>
