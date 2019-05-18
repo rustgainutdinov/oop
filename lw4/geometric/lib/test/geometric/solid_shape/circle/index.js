@@ -8,6 +8,8 @@ var point_1 = require("../../../../geometric/shape/point");
 var assert_1 = __importDefault(require("assert"));
 var geomenricError_1 = require("../../../../geometric/error/geomenricError");
 var color_1 = require("../../../../geometric/color");
+var canvas_1 = require("../../../../geometric/canvas/canvas");
+var fs_1 = __importDefault(require("fs"));
 function testCircleClass() {
     describe('Circle class', function () {
         it('Should create new circle with center in (0, 0) and radius = 0.5', function () {
@@ -83,6 +85,12 @@ function testCircleClass() {
         it('Should set default shape description', function () {
             var circle = new circle_1.Circle(new point_1.Point(-1, 1), 5);
             assert_1.default(typeof circle.toString() === 'string' && circle.toString().length !== 0);
+        });
+        it('Should draw circle', function () {
+            var circle = new circle_1.Circle(new point_1.Point(-4, -4), 5, 'FFF000', '333555');
+            var canvas = new canvas_1.Canvas(new point_1.Point(-10, 2), new point_1.Point(2, -10));
+            circle.draw(canvas);
+            fs_1.default.writeFileSync('test1.svg', canvas.getHtml());
         });
     });
 }

@@ -14,6 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var solidShape_1 = require("./solidShape");
+var point_1 = require("../point");
 var geomenricError_1 = require("../../error/geomenricError");
 var Circle = /** @class */ (function (_super) {
     __extends(Circle, _super);
@@ -41,6 +42,10 @@ var Circle = /** @class */ (function (_super) {
     };
     Circle.prototype.getRadius = function () {
         return this.radius;
+    };
+    Circle.prototype.draw = function (canvas) {
+        canvas.drawCircle(point_1.recalculateCoordinateForDrawing(this.center, canvas.leftTopPoint), this.radius, this.getOutlineColor());
+        canvas.fillCircle(point_1.recalculateCoordinateForDrawing(this.center, canvas.leftTopPoint), this.radius, this.getFillColor());
     };
     return Circle;
 }(solidShape_1.SolidShape));

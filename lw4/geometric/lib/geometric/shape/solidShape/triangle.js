@@ -58,6 +58,15 @@ var Triangle = /** @class */ (function (_super) {
     Triangle.prototype.getVertex3 = function () {
         return this.vertex3;
     };
+    Triangle.prototype.draw = function (canvas) {
+        var vertex1 = point_1.recalculateCoordinateForDrawing(this.getVertex1(), canvas.leftTopPoint);
+        var vertex2 = point_1.recalculateCoordinateForDrawing(this.getVertex2(), canvas.leftTopPoint);
+        var vertex3 = point_1.recalculateCoordinateForDrawing(this.getVertex3(), canvas.leftTopPoint);
+        canvas.drawLine(vertex1, vertex2, this.getOutlineColor());
+        canvas.drawLine(vertex2, vertex3, this.getOutlineColor());
+        canvas.drawLine(vertex3, vertex1, this.getOutlineColor());
+        canvas.fillPolygon([vertex1, vertex2, vertex3], this.getFillColor());
+    };
     return Triangle;
 }(solidShape_1.SolidShape));
 exports.Triangle = Triangle;

@@ -1,6 +1,7 @@
 import {Shape} from "./shape";
-import {Point} from "./point";
+import {Point, recalculateCoordinateForDrawing} from "./point";
 import {GeometricError} from "../error/geomenricError";
+import {Canvas} from "../canvas/canvas";
 
 class LineSegment extends Shape {
 	private readonly startPoint: Point;
@@ -36,6 +37,10 @@ class LineSegment extends Shape {
 	
 	getEndPoint(): Point {
 		return this.endPoint
+	}
+	
+	draw(canvas: Canvas): void {
+		canvas.drawLine(recalculateCoordinateForDrawing(this.getStartPoint(), canvas.leftTopPoint), recalculateCoordinateForDrawing(this.getEndPoint(), canvas.leftTopPoint), this.getOutlineColor())
 	}
 }
 

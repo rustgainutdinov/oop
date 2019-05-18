@@ -1,6 +1,7 @@
 import {SolidShape} from "./solidShape";
-import {Point} from "../point";
+import {Point, recalculateCoordinateForDrawing} from "../point";
 import {GeometricError} from "../../error/geomenricError";
+import {Canvas} from "../../canvas/canvas";
 
 class Rectangle extends SolidShape {
 	private readonly leftTop: Point;
@@ -44,6 +45,27 @@ class Rectangle extends SolidShape {
 		return `Left top point: (${this.getLeftTop().x},  ${this.getLeftTop().y}),
 		right bottom point: (${this.getRightBottom().x},  ${this.getRightBottom().y}),
 		width: ${this.getWidth()}, height: ${this.getHeight()}`
+	}
+	
+	getPoints(): Array<Point> {
+		return [
+			this.getLeftTop(),
+			new Point(this.getRightBottom().x, this.getLeftTop().y),
+			this.getRightBottom(),
+			new Point(this.getLeftTop().x, this.getRightBottom().y),
+		];
+	}
+	
+	draw(canvas: Canvas) {
+		const points: Array<Point> = this.getPoints().map(item => recalculateCoordinateForDrawing(item, canvas.leftTopPoint));
+		const outLinePointsRectangle = new Rectangle(
+			new Point(this.getLeftTop().x - 1, this.getLeftTop().y + 1),
+			new Point(this.getRightBottom().x + 1, this.getRightBottom().y - 1)
+		);
+		const outLinePoints = outLinePointsRectangle.getPoints().map(item => recalculateCoordinateForDrawing(item, canvas.leftTopPoint));
+		
+		canvas.fillPolygon(outLinePoints, this.getOutlineColor());
+		canvas.fillPolygon(points, this.getFillColor());
 	}
 }
 

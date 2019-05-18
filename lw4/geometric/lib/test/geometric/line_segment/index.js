@@ -1,10 +1,15 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var lineSegment_1 = require("../../../geometric/shape/lineSegment");
 var point_1 = require("../../../geometric/shape/point");
 var methods_1 = require("../../methods");
 var geomenricError_1 = require("../../../geometric/error/geomenricError");
 var color_1 = require("../../../geometric/color");
+var canvas_1 = require("../../../geometric/canvas/canvas");
+var fs_1 = __importDefault(require("fs"));
 var assert = require('assert');
 var lines = [
     { start: new point_1.Point(0, 1), end: new point_1.Point(0, 2), perimeter: 1 },
@@ -83,6 +88,12 @@ function testClassLineSegment() {
         it('Should set default shape description', function () {
             var line = new lineSegment_1.LineSegment(new point_1.Point(4, 5), new point_1.Point(9, 6), '000000');
             assert(typeof line.toString() === 'string' && line.toString().length !== 0);
+        });
+        it('should draw line', function () {
+            var canvas = new canvas_1.Canvas(new point_1.Point(0, 10), new point_1.Point(10, 0));
+            var line = new lineSegment_1.LineSegment(new point_1.Point(4, 5), new point_1.Point(9, 6), '1a9399');
+            line.draw(canvas);
+            fs_1.default.writeFileSync('test4.svg', canvas.getHtml());
         });
     });
 }

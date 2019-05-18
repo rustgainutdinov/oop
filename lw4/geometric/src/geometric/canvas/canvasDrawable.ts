@@ -1,7 +1,7 @@
-import {ICanvas} from "./ICanvas";
+import {CanvasInterface} from "./canvasInterface";
 
 interface CanvasDrawable {
-	draw(canvas: ICanvas): any;
+	draw(canvas: CanvasInterface): void;
 }
 
 export {CanvasDrawable}

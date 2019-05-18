@@ -3,6 +3,8 @@ import {Point} from "../../../../geometric/shape/point";
 import {GeometricError} from "../../../../geometric/error/geomenricError";
 import {checkForEquality} from "../../../methods";
 import {getColorNumberFromString} from "../../../../geometric/color";
+import {Canvas} from "../../../../geometric/canvas/canvas";
+import fs from "fs";
 
 const assert = require('assert');
 
@@ -103,7 +105,14 @@ function testTriangleClass() {
 		it('Should set default shape description', () => {
 			const triangle = new Triangle(new Point(4, 5), new Point(9, 6), new Point(4, 3));
 			assert(typeof triangle.toString() === 'string' && triangle.toString().length !== 0);
-		})
+		});
+		
+		it('should draw triangle', () => {
+			const canvas = new Canvas(new Point(0, 20), new Point(20, -20));
+			const triangle = new Triangle(new Point(1, 15), new Point(18, 0), new Point(4, -15), 'FFF000', '333555');
+			triangle.draw(canvas);
+			fs.writeFileSync('test3.svg', canvas.getHtml());
+		});
 	});
 }
 

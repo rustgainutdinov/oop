@@ -3,6 +3,8 @@ import {checkPointsForEquality, Point} from "../../../../geometric/shape/point";
 import assert from 'assert'
 import {GeometricError} from "../../../../geometric/error/geomenricError";
 import {getColorNumberFromString} from "../../../../geometric/color";
+import {Canvas} from "../../../../geometric/canvas/canvas";
+import fs from "fs";
 
 function testCircleClass() {
 	describe('Circle class', () => {
@@ -90,7 +92,14 @@ function testCircleClass() {
 		it('Should set default shape description', () => {
 			const circle = new Circle(new Point(-1, 1), 5);
 			assert(typeof circle.toString() === 'string' && circle.toString().length !== 0);
-		})
+		});
+		
+		it('Should draw circle', () => {
+			const circle = new Circle(new Point(-4, -4), 5, 'FFF000', '333555');
+			const canvas = new Canvas(new Point(-10, 2), new Point(2, -10));
+			circle.draw(canvas);
+			fs.writeFileSync('test1.svg', canvas.getHtml());
+		});
 	});
 }
 

@@ -1,6 +1,7 @@
 import {SolidShape} from "./solidShape";
-import {Point} from "../point";
+import {Point, recalculateCoordinateForDrawing} from "../point";
 import {GeometricError} from "../../error/geomenricError";
+import {Canvas} from "../../canvas/canvas";
 
 class Circle extends SolidShape {
 	private readonly center: Point;
@@ -32,6 +33,11 @@ class Circle extends SolidShape {
 	
 	getRadius(): number {
 		return this.radius
+	}
+	
+	draw(canvas: Canvas): void {
+		canvas.drawCircle(recalculateCoordinateForDrawing(this.center, canvas.leftTopPoint), this.radius, this.getOutlineColor());
+		canvas.fillCircle(recalculateCoordinateForDrawing(this.center, canvas.leftTopPoint), this.radius, this.getFillColor());
 	}
 }
 

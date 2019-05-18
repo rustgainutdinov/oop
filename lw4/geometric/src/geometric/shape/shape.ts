@@ -1,6 +1,8 @@
 import {getColorNumberFromString} from "../color";
+import {CanvasDrawable} from "../canvas/canvasDrawable";
+import {Canvas} from "../canvas/canvas";
 
-abstract class Shape {
+abstract class Shape implements CanvasDrawable {
 	private readonly outLineColor: number;
 	
 	protected constructor(outLineColorStr = '000000') {
@@ -21,6 +23,9 @@ abstract class Shape {
 	getOutlineColor(): number {
 		return this.outLineColor
 	}
+	
+	abstract draw(canvas: Canvas): void;
 }
+
 
 export {Shape}

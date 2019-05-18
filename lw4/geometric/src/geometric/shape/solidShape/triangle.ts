@@ -1,7 +1,8 @@
 import {SolidShape} from "./solidShape";
-import {checkPointsForEquality, Point} from "../point";
+import {checkPointsForEquality, Point, recalculateCoordinateForDrawing} from "../point";
 import {getLengthBetweenPoints} from "../lineSegment";
 import {GeometricError} from "../../error/geomenricError";
+import {Canvas} from "../../canvas/canvas";
 
 class Triangle extends SolidShape {
 	private readonly vertex1: Point;
@@ -53,6 +54,16 @@ class Triangle extends SolidShape {
 	
 	getVertex3(): Point {
 		return this.vertex3
+	}
+	
+	draw(canvas: Canvas) {
+		const vertex1 = recalculateCoordinateForDrawing(this.getVertex1(), canvas.leftTopPoint);
+		const vertex2 = recalculateCoordinateForDrawing(this.getVertex2(), canvas.leftTopPoint);
+		const vertex3 = recalculateCoordinateForDrawing(this.getVertex3(), canvas.leftTopPoint);
+		canvas.drawLine(vertex1, vertex2, this.getOutlineColor());
+		canvas.drawLine(vertex2, vertex3, this.getOutlineColor());
+		canvas.drawLine(vertex3, vertex1, this.getOutlineColor());
+		canvas.fillPolygon([vertex1, vertex2, vertex3], this.getFillColor());
 	}
 }
 

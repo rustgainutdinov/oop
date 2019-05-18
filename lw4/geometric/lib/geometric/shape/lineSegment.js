@@ -14,6 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var shape_1 = require("./shape");
+var point_1 = require("./point");
 var geomenricError_1 = require("../error/geomenricError");
 var LineSegment = /** @class */ (function (_super) {
     __extends(LineSegment, _super);
@@ -42,6 +43,9 @@ var LineSegment = /** @class */ (function (_super) {
     };
     LineSegment.prototype.getEndPoint = function () {
         return this.endPoint;
+    };
+    LineSegment.prototype.draw = function (canvas) {
+        canvas.drawLine(point_1.recalculateCoordinateForDrawing(this.getStartPoint(), canvas.leftTopPoint), point_1.recalculateCoordinateForDrawing(this.getEndPoint(), canvas.leftTopPoint), this.getOutlineColor());
     };
     return LineSegment;
 }(shape_1.Shape));

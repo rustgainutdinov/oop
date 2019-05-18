@@ -14,6 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var solidShape_1 = require("./solidShape");
+var point_1 = require("../point");
 var geomenricError_1 = require("../../error/geomenricError");
 var Rectangle = /** @class */ (function (_super) {
     __extends(Rectangle, _super);
@@ -48,6 +49,21 @@ var Rectangle = /** @class */ (function (_super) {
     };
     Rectangle.prototype.getDetailedDescription = function () {
         return "Left top point: (" + this.getLeftTop().x + ",  " + this.getLeftTop().y + "),\n\t\tright bottom point: (" + this.getRightBottom().x + ",  " + this.getRightBottom().y + "),\n\t\twidth: " + this.getWidth() + ", height: " + this.getHeight();
+    };
+    Rectangle.prototype.getPoints = function () {
+        return [
+            this.getLeftTop(),
+            new point_1.Point(this.getRightBottom().x, this.getLeftTop().y),
+            this.getRightBottom(),
+            new point_1.Point(this.getLeftTop().x, this.getRightBottom().y),
+        ];
+    };
+    Rectangle.prototype.draw = function (canvas) {
+        var points = this.getPoints().map(function (item) { return point_1.recalculateCoordinateForDrawing(item, canvas.leftTopPoint); });
+        var outLinePointsRectangle = new Rectangle(new point_1.Point(this.getLeftTop().x - 1, this.getLeftTop().y + 1), new point_1.Point(this.getRightBottom().x + 1, this.getRightBottom().y - 1));
+        var outLinePoints = outLinePointsRectangle.getPoints().map(function (item) { return point_1.recalculateCoordinateForDrawing(item, canvas.leftTopPoint); });
+        canvas.fillPolygon(outLinePoints, this.getOutlineColor());
+        canvas.fillPolygon(points, this.getFillColor());
     };
     return Rectangle;
 }(solidShape_1.SolidShape));

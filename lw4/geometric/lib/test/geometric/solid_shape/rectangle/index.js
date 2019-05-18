@@ -1,9 +1,14 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var rectangle_1 = require("../../../../geometric/shape/solidShape/rectangle");
 var point_1 = require("../../../../geometric/shape/point");
 var geomenricError_1 = require("../../../../geometric/error/geomenricError");
 var color_1 = require("../../../../geometric/color");
+var canvas_1 = require("../../../../geometric/canvas/canvas");
+var fs_1 = __importDefault(require("fs"));
 var assert = require('assert');
 function testRectangleClass() {
     describe('Rectangle class', function () {
@@ -96,6 +101,12 @@ function testRectangleClass() {
         it('Should set default shape description', function () {
             var rectangle = new rectangle_1.Rectangle(new point_1.Point(-1, 1), new point_1.Point(1, -1));
             assert(typeof rectangle.toString() === 'string' && rectangle.toString().length !== 0);
+        });
+        it('should draw rectangle', function () {
+            var rectangle = new rectangle_1.Rectangle(new point_1.Point(5, 15), new point_1.Point(15, -15), 'FFF000', '333555');
+            var canvas = new canvas_1.Canvas(new point_1.Point(0, 20), new point_1.Point(20, -20));
+            rectangle.draw(canvas);
+            fs_1.default.writeFileSync('test2.svg', canvas.getHtml());
         });
     });
 }

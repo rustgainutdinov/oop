@@ -3,6 +3,8 @@ import {Point} from "../../../geometric/shape/point";
 import {checkForEquality} from "../../methods";
 import {GeometricError} from "../../../geometric/error/geomenricError";
 import {getColorNumberFromString} from "../../../geometric/color";
+import {Canvas} from "../../../geometric/canvas/canvas";
+import fs from "fs";
 
 const assert = require('assert');
 
@@ -91,6 +93,13 @@ function testClassLineSegment() {
 		it('Should set default shape description', () => {
 			const line = new LineSegment(new Point(4, 5), new Point(9, 6), '000000');
 			assert(typeof line.toString() === 'string' && line.toString().length !== 0);
+		});
+		
+		it('should draw line', ()=> {
+			const canvas = new Canvas(new Point(0, 10), new Point(10, 0));
+			const line = new LineSegment(new Point(4, 5), new Point(9, 6), '1a9399');
+			line.draw(canvas);
+			fs.writeFileSync('test4.svg', canvas.getHtml());
 		})
 	});
 }

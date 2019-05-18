@@ -1,10 +1,15 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var triangle_1 = require("../../../../geometric/shape/solidShape/triangle");
 var point_1 = require("../../../../geometric/shape/point");
 var geomenricError_1 = require("../../../../geometric/error/geomenricError");
 var methods_1 = require("../../../methods");
 var color_1 = require("../../../../geometric/color");
+var canvas_1 = require("../../../../geometric/canvas/canvas");
+var fs_1 = __importDefault(require("fs"));
 var assert = require('assert');
 function testTriangleClass() {
     describe('Triangle class', function () {
@@ -90,6 +95,12 @@ function testTriangleClass() {
         it('Should set default shape description', function () {
             var triangle = new triangle_1.Triangle(new point_1.Point(4, 5), new point_1.Point(9, 6), new point_1.Point(4, 3));
             assert(typeof triangle.toString() === 'string' && triangle.toString().length !== 0);
+        });
+        it('should draw triangle', function () {
+            var canvas = new canvas_1.Canvas(new point_1.Point(0, 20), new point_1.Point(20, -20));
+            var triangle = new triangle_1.Triangle(new point_1.Point(1, 15), new point_1.Point(18, 0), new point_1.Point(4, -15), 'FFF000', '333555');
+            triangle.draw(canvas);
+            fs_1.default.writeFileSync('test3.svg', canvas.getHtml());
         });
     });
 }

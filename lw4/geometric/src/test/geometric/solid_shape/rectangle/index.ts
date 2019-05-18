@@ -2,6 +2,8 @@ import {Rectangle} from "../../../../geometric/shape/solidShape/rectangle";
 import {checkPointsForEquality, Point} from "../../../../geometric/shape/point";
 import {GeometricError} from "../../../../geometric/error/geomenricError";
 import {getColorNumberFromString} from "../../../../geometric/color";
+import {Canvas} from "../../../../geometric/canvas/canvas";
+import fs from "fs";
 
 const assert = require('assert');
 
@@ -109,7 +111,14 @@ function testRectangleClass() {
 		it('Should set default shape description', () => {
 			const rectangle = new Rectangle(new Point(-1, 1), new Point(1, -1));
 			assert(typeof rectangle.toString() === 'string' && rectangle.toString().length !== 0);
-		})
+		});
+		
+		it('should draw rectangle', () => {
+			const rectangle = new Rectangle(new Point(5, 15), new Point(15, -15), 'FFF000', '333555');
+			const canvas = new Canvas(new Point(0, 20), new Point(20, -20));
+			rectangle.draw(canvas);
+			fs.writeFileSync('test2.svg', canvas.getHtml());
+		});
 	});
 }
 

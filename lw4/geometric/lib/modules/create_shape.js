@@ -15,7 +15,7 @@ function createRectangle(shapeData) {
     return new rectangle_1.Rectangle(new point_1.Point(+shapeData[1], +shapeData[2]), new point_1.Point(+shapeData[3], +shapeData[4]), shapeData[5], shapeData[6]);
 }
 function createCircle(shapeData) {
-    return new circle_1.Circle(new point_1.Point(+shapeData[1], +shapeData[2]), shapeData[3], shapeData[4], shapeData[5]);
+    return new circle_1.Circle(new point_1.Point(+shapeData[1], +shapeData[2]), +shapeData[3], shapeData[4], shapeData[5]);
 }
 function createShape(shapeDataStr) {
     var shapeData = shapeDataStr.trim().split(' ');

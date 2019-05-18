@@ -32,7 +32,7 @@ function createRectangle(shapeData: any): Rectangle {
 
 function createCircle(shapeData: any): Circle {
 	return new Circle(
-		new Point(+shapeData[1], +shapeData[2]), shapeData[3],
+		new Point(+shapeData[1], +shapeData[2]), +shapeData[3],
 		shapeData[4], shapeData[5]
 	);
 }
