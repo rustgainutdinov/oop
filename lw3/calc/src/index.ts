@@ -4,44 +4,74 @@ import {Function, Operator} from "./classes/Function";
 // @ts-ignore
 import readlineSync from 'readline-sync';
 
-let values: Array<Value> = [];
-let variables: Array<Variable> = [];
-let functions: Array<Function> = [];
+main();
 
-while (true) {
-	const command: Array<string> = readlineSync.question('> ').split(' ');
-	if (command[0] === 'var') {
-		declareVariable(variables, values, command[1]);
-	} else if (command[0] === 'let') {
-		const variable = declareVariable(variables, values, command[1]);
-		setValue(variable, command[3]);
-	} else if (command[0] === 'fn') {
-		try {
-			declareFn(functions, values, command[1], command[3], command[4], command[5]);
-		} catch (e) {
-			if (e) console.log(e);
+function main() {
+	let values: Array<Value> = [];
+	let variables: Array<Variable> = [];
+	let functions: Array<Function> = [];
+	
+	while (true) {
+		const command: Array<string> = readlineSync.question('> ').split(' ');
+		if (command[0] === 'var') {
+			if (getValueFromArr(values, command[1])) {
+				console.log('Variable already exist');
+				continue;
+			}
+			try {
+				declareVariable(variables, values, command[1]);
+			} catch (e) {
+				if (e) console.log(e);
+			}
+		} else if (command[0] === 'let') {
+			try {
+				const variable = declareVariable(variables, values, command[1]);
+				setValue(variable, values, command[3]);
+			} catch (e) {
+				if (e) console.log(e);
+			}
+		} else if (command[0] === 'fn') {
+			try {
+				declareFn(functions, values, command[1], command[3], command[4], command[5]);
+			} catch (e) {
+				if (e) console.log(e);
+			}
+		} else if (command[0] === 'print') {
+			try {
+				printValue(values, command[1]);
+			} catch (e) {
+				if (e) console.log(e);
+			}
+		} else if (command[0] === 'printvars') {
+			variables.forEach(variable => {
+				console.log(`${variable.getName()}:`);
+				try {
+					printValue(values, variable.getName());
+				} catch (e) {
+					if (e) console.log(e);
+				}
+			});
+		} else if (command[0] === 'printfns') {
+			functions.forEach(func => {
+				console.log(`${func.getName()}:`);
+				try {
+					printValue(values, func.getName());
+				} catch (e) {
+					if (e) console.log(e);
+				}
+			});
+		} else if (command[0] === '...') {
+			break;
+		} else {
+			console.log('Command is not found');
 		}
-	} else if (command[0] === 'print') {
-		printValue(values, command[1]);
-	} else if (command[0] === 'printvars') {
-		variables.forEach(variable => {
-			console.log(`${variable.getName()}:`);
-			printValue(values, variable.getName());
-		});
-	} else if (command[0] === 'printfns') {
-		functions.forEach(func => {
-			console.log(`${func.getName()}:`);
-			printValue(values, func.getName());
-		});
-	} else if (command[0] === '...') {
-		break;
 	}
 }
 
 function getValueFromArr(arr: Array<Value>, name: string): Value | undefined {
 	for (let i = 0; i < arr.length; i++) {
-		if (values[i].getName() === name) {
-			return values[i]
+		if (arr[i].getName() === name) {
+			return arr[i]
 		}
 	}
 	return undefined
@@ -53,14 +83,14 @@ function printValue(values: Array<Value>, name: string) {
 		try {
 			console.log(value.getValue().toFixed(2));
 		} catch (e) {
-			if (e) console.log('Value is not defined');
+			if (e) throw new Error('Value is not defined');
 		}
 	} else {
-		console.log('Value is not defined')
+		throw new Error('Value is not defined')
 	}
 }
 
-function setValue(variable: Variable, value: string) {
+function setValue(variable: Variable, values: Array<Value>, value: string) {
 	if (!isNaN(+value)) {
 		variable.setValue(+value);
 	} else {
@@ -108,6 +138,6 @@ function declareFn(functions: Array<Function>, values: Array<Value>, name: strin
 			throw new Error('Error')
 		}
 	} else {
-		throw new Error('Error')
+		throw new Error('Error variable already exists')
 	}
 }
