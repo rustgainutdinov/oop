@@ -1,7 +1,7 @@
 package main
 
-import org.junit.jupiter.api.Test
+import classes.CRational
 
 fun main(args: Array<String>) {
-    println("Hello world")
+    var complex = CRational()
 }
