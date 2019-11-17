@@ -1,5 +1,6 @@
 package methods
 
+//TODO: rename function to getGCD
 fun getNOD(a: Int, b: Int): Int {
     var x = a
     var y = b

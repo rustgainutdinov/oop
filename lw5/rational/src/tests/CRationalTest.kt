@@ -127,14 +127,35 @@ class CRationalTest {
     }
 
     @Test
-    fun shouldCompareRationalNumbers() {
+    fun shouldCompareToMatchRationalNumbers() {
         val rational1 = CRational(2, 11)
         val rational2 = CRational(2, 11)
         val rational3 = CRational(4, 9)
         assertTrue(rational1 == rational2)
         assertFalse(rational1 == rational3)
-
+//        assertFalse(rational1 == 4)
         assertFalse(rational1 != rational2)
         assertTrue(rational1 != rational3)
+    }
+
+    @Test
+    fun shouldCompareRationalNumbers() {
+        val rational1 = CRational(2, 11)
+        val rational2 = CRational(3, 11)
+        val rational3 = CRational(4, 9)
+        assertTrue(rational2 > rational1)
+        assertTrue(rational2 < rational3)
+        assertTrue(rational2 <= rational3)
+        assertTrue(rational2 >= rational2)
+    }
+
+    @Test
+    fun shouldCompareRationalNumberAndInt() {
+        val rational1 = CRational(2, 11)
+        val rational2 = CRational(22, 11)
+        assertTrue(rational2 > 1)
+        assertTrue(rational1 < 3)
+        assertTrue(rational2 <= 5)
+        assertTrue(rational2 >= 2)
     }
 }

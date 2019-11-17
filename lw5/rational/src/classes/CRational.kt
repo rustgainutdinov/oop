@@ -118,4 +118,12 @@ class CRational {
         }
         return false
     }
+
+    operator fun compareTo(b: CRational): Int {
+        return numerator * b.denominator - b.numerator * denominator
+    }
+
+    operator fun compareTo(b: Int): Int {
+        return numerator - b * denominator
+    }
 }
