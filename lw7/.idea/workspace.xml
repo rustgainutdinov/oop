@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86ffff18-412f-4f2e-a09c-12b1b16c30e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lw6/http_url/src/classes/UserInteraction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lw6/http_url/src/methods/getStringFromProtocol.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_max/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_max/src/MaxValue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_max/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/myString/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/myString/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/myString/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/myString.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/myString/myString.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/out/production/myString/META-INF/myString.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/myString/out/production/myString/META-INF/myString.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/out/production/myString/main/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/myString/out/production/myString/main/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/src/classes/MyChar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/src/classes/MyString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/myString/src/classes/MyString.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/myString/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/myString/src/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/rational/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/rational/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw5/rational/src/tests/CRationalTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lw5/rational/src/tests/CRationalTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/lib/classes/HttpUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/lib/classes/HttpUrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/lib/classes/ValidateError.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/lib/classes/ValidateError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/src/classes/HttpUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/src/classes/HttpUrl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/src/data_types/Protocol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/src/data_types/Protocol.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/src/methods/getPortByProtocol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/src/methods/getPortByProtocol.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/src/methods/validateProtocol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/src/methods/getProtocolFromString.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/src/tests/HttpUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lw6/http_url/src/tests/HttpUrl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lw6/http_url/src/tests/methods.ts" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-843051265">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/find_max/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/find_max/node_modules/@types/chai/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/@types/mocha/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ansi-align/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ansi-colors/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/arg/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/assertion-error/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/boxen/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/browser-stdout/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/buffer-from/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/capture-stack-trace/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/chai/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/check-error/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ci-info/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/cli-boxes/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/cliui/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/cliui/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/cliui/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/configstore/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/create-error-class/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/crypto-random-string/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/deep-eql/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/define-properties/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/dot-prop/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/duplexer3/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/emoji-regex/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/es-abstract/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/es-to-primitive/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/execa/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/flat/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/fsevents/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/function-bind/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/get-func-name/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/global-dirs/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/got/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/growl/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/has-symbols/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/has/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/he/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ignore-by-default/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/import-lazy/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/imurmurhash/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-binary-path/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-callable/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-ci/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-date-object/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-installed-globally/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-npm/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-obj/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-path-inside/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-redirect/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-regex/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-retry-allowed/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/is-symbol/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/latest-version/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/log-symbols/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/lowercase-keys/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/make-dir/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/make-error/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/mocha/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/mocha/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/mocha/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/mocha/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/mocha/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/mocha/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/node-environment-flags/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/nodemon/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/npm-run-path/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/object-inspect/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/object-keys/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/object.assign/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/object.getownpropertydescriptors/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/p-finally/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/package-json/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/path-is-inside/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/path-key/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/pathval/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/picomatch/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/prepend-http/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/pseudomap/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/pstree.remy/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/registry-auth-token/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/registry-url/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/semver-diff/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/shebang-command/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/shebang-regex/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/string.prototype.trimleft/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/string.prototype.trimright/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/strip-eof/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/term-size/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/timed-out/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/touch/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/ts-node/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/type-detect/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/typescript/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/undefsafe/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/undefsafe/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/undefsafe/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/unique-string/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/unzip-response/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/update-notifier/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/url-parse-lax/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/widest-line/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/wrap-ansi/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/wrap-ansi/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/wrap-ansi/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/write-file-atomic/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/xdg-basedir/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yargs-parser/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yargs-unparser/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yargs/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yargs/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yargs/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/find_max/node_modules/yn/package.json" />
+      <path value="$PROJECT_DIR$/find_max/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lw7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw7" type="462c0819:PsiDirectoryNode" />
+              <item name="find_max" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw7" type="462c0819:PsiDirectoryNode" />
+              <item name="lw7_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86ffff18-412f-4f2e-a09c-12b1b16c30e8" name="Default Changelist" comment="" />
+      <created>1592153354997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592153354997</updated>
+      <workItem from="1592153356351" duration="761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="761000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

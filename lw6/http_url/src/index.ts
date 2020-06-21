@@ -1,7 +1,7 @@
-import HttpUrl from "./classes/HttpUrl";
+import UserInteraction from "./classes/UserInteraction";
 
 function main() {
-	new HttpUrl("https://ispring.ru:4000");
+	new UserInteraction().run();
 }
 
 main();

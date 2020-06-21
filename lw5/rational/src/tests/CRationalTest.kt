@@ -133,6 +133,7 @@ class CRationalTest {
         val rational3 = CRational(4, 9)
         assertTrue(rational1 == rational2)
         assertFalse(rational1 == rational3)
+        assertFalse(rational1 == 5)
 //        assertFalse(rational1 == 4)
         assertFalse(rational1 != rational2)
         assertTrue(rational1 != rational3)

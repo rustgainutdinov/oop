@@ -1,28 +1,31 @@
 import Protocol from "../data_types/Protocol";
 import ParsingError from "./ParsingError";
-import getProtocolFromString from "../methods/validateProtocol";
+import getProtocolFromString from "../methods/getProtocolFromString";
 import getPortByProtocol from "../methods/getPortByProtocol";
+import getStringByProtocol from "../methods/getStringFromProtocol";
 
 class HttpUrl {
-	readonly url: string;
 	readonly domain: string;
 	readonly document: string | undefined;
 	readonly protocol: Protocol;
 	readonly port: number;
 	
-	constructor(url: string) {
-		const parsedUrl: RegExpMatchArray | null = url.match(/^(.{4,5}):\/\/(([a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9]\.)+[a-zA-Z]{2,})(:(\d+))?(\/.*)?$/ui);
+	static createByUrl(url: string): HttpUrl {
+		const parsedUrl: RegExpMatchArray | null = url.match(/^(.{4,5}):\/\/(([a-z0-9-]{1,63}\.?)+(\.[a-z]{2,})?)(:(\d+))?(\/.*)?$/ui);
 		if (parsedUrl == null) {
 			throw new ParsingError("Url parsing error");
 		}
 		const protocol: string = parsedUrl[1];
 		const domain: string = parsedUrl[2];
-		const port: number | undefined = parseInt(parsedUrl[5]);
-		const document: string | undefined = parsedUrl[6];
+		const port: number | undefined = parseInt(parsedUrl[6]);
+		const document: string | undefined = parsedUrl[7];
 		if (!(protocol && domain)) {
 			throw new ParsingError("Url parsing error");
 		}
-		this.url = url;
+		return new HttpUrl(protocol, domain, port, document);
+	}
+	
+	 constructor(protocol: string, domain: string, port?: number, document?: string) {
 		this.protocol = getProtocolFromString(protocol);
 		this.domain = domain;
 		if (!port) {
@@ -30,8 +33,10 @@ class HttpUrl {
 		} else {
 			this.port = port;
 		}
-		this.document = document;
-		// console.log(this.domain, this.protocol, this.port, this.document)
+		if (document && document.slice(0, 1) !== "/") {
+			document = "/" + document;
+		}
+		this.document = document
 	}
 	
 	getProtocol(): Protocol {
@@ -51,7 +56,11 @@ class HttpUrl {
 	}
 	
 	getUrl(): string {
-		return this.url
+		let url: string = getStringByProtocol(this.getProtocol()) + "://" + this.getDomain();
+		if (getPortByProtocol(this.getProtocol()) !== this.getPort()) {
+			url += ":" + this.getPort()
+		}
+		return url + (this.getDocument() ? this.getDocument() : "");
 	}
 }
 
