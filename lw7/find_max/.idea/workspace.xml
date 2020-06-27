@@ -2,36 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7a0065-8829-402f-b4dd-7edf59c2fcd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../lw6/http_url/src/classes/UserInteraction.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lw6/http_url/src/methods/getStringFromProtocol.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxValue.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_array/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/myString/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/myString/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/myString/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/myString.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/myString/myString.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/out/production/myString/META-INF/myString.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/myString/out/production/myString/META-INF/myString.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/out/production/myString/main/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/myString/out/production/myString/main/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/src/classes/MyChar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/src/classes/MyString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/myString/src/classes/MyString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/myString/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/myString/src/main/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/rational/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/rational/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw5/rational/src/tests/CRationalTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw5/rational/src/tests/CRationalTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/lib/classes/HttpUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/lib/classes/HttpUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/lib/classes/ValidateError.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/lib/classes/ValidateError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/src/classes/HttpUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/src/classes/HttpUrl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/src/data_types/Protocol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/src/data_types/Protocol.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/src/methods/getPortByProtocol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/src/methods/getPortByProtocol.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/src/methods/validateProtocol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/src/methods/getProtocolFromString.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/src/tests/HttpUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw6/http_url/src/tests/HttpUrl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lw6/http_url/src/tests/methods.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyArray/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyArray/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyArray/src/MyArray.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyArray/src/MyArrayItem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyArray/src/OutOfRangeException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyArray/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_array/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_array/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_array/.idea/my_array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_array/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_array/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_array/package.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,6 +71,7 @@
     <session id="1395180230">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -125,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MaxValue.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -138,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -147,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/src/findMax.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -157,11 +141,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -379,7 +363,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583091449148</updated>
       <workItem from="1583091451696" duration="5271000" />
-      <workItem from="1592244280858" duration="1518000" />
+      <workItem from="1592244280858" duration="2856000" />
     </task>
     <servers />
   </component>
@@ -416,12 +400,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6789000" />
+    <option name="totallyTimeSpent" value="8127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -443,6 +427,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../MyArray/src/MyArrayItem.js" />
+        <option value="$PROJECT_DIR$/../MyArray/src/tmp.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -465,10 +455,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxValue.ts">
+    <entry file="file://$PROJECT_DIR$/bin/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/findMax.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -482,30 +492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/findMax.ts">
+    <entry file="file://$PROJECT_DIR$/src/MaxValue.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
